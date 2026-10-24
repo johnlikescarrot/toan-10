@@ -1,0 +1,2 @@
+# Chỉ cần để dựng lại PDF từ nguồn (src/).
+reportlab>=4.0
