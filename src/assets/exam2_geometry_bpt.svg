@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 195" width="420" height="195" font-family="Be Vietnam Pro, DejaVu Sans, sans-serif">
+  <defs>
+    <marker id="arrE2" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#0F172A"/>
+    </marker>
+    <pattern id="hatchE2" width="8" height="8" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#FCA5A5" stroke-width="2.2"/>
+    </pattern>
+  </defs>
+  <rect x="0" y="0" width="420" height="195" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+  <!-- Origin O(110, 155), scale: x unit = 40px, y unit = 28px: A(2,0)->(190,155), B(0,4)->(110,43) -->
+  <!-- Line through (95, 22) and (211.4, 185) -->
+  <!-- Discarded lower-left region containing O(0;0) -->
+  <polygon points="20,22 95,22 211.4,185 20,185" fill="url(#hatchE2)"/>
+  <!-- Feasible upper-right region (2x + y >= 4) -->
+  <polygon points="95,22 370,22 370,185 211.4,185" fill="#F0FDFA" fill-opacity="0.55"/>
+
+  <line x1="20" y1="155" x2="375" y2="155" stroke="#0F172A" stroke-width="1.6" marker-end="url(#arrE2)"/>
+  <line x1="110" y1="185" x2="110" y2="16" stroke="#0F172A" stroke-width="1.6" marker-end="url(#arrE2)"/>
+  <line x1="95" y1="22" x2="211.4" y2="185" stroke="#0D9488" stroke-width="2.5"/>
+
+  <circle cx="110" cy="155" r="3.5" fill="#0F172A"/>
+  <circle cx="190" cy="155" r="4" fill="#DC2626"/>
+  <circle cx="110" cy="43" r="4" fill="#DC2626"/>
+  <text x="95" y="170" font-size="10" font-weight="700" fill="#0F172A">O</text>
+  <text x="186" y="172" font-size="10" font-weight="700" fill="#DC2626">2</text>
+  <text x="196" y="148" font-size="9.5" font-weight="700" fill="#DC2626">A(2;0)</text>
+  <text x="98" y="51" font-size="9.5" font-weight="700" fill="#DC2626">4</text>
+  <text x="58" y="42" font-size="9.5" font-weight="700" fill="#DC2626">B(0;4)</text>
+  <text x="365" y="170" font-size="10.5" font-weight="700" fill="#0F172A">x</text>
+  <text x="95" y="24" font-size="10.5" font-weight="700" fill="#0F172A">y</text>
+  <text x="175" y="92" font-size="9.5" font-weight="700" fill="#0F766E">d: 2x + y = 4</text>
+  <text x="275" y="115" text-anchor="middle" font-size="9.5" font-weight="700" fill="#0F766E">Miền nghiệm</text>
+  <text x="275" y="128" text-anchor="middle" font-size="8.5" fill="#0F766E">(không gạch, kể cả d)</text>
+</svg>

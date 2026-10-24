@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 225" width="760" height="225" font-family="Be Vietnam Pro, DejaVu Sans, sans-serif">
+  <rect x="0" y="0" width="760" height="225" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.2"/>
+  <text x="380" y="22" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0F172A">4 PHÉP TOÁN TẬP HỢP TRÊN BIỂU ĐỒ VEN &amp; CÔNG THỨC ĐẾM THỰC TẾ (MỤC 1.3)</text>
+
+  <!-- Card 1: Intersection A ∩ B -->
+  <rect x="12" y="32" width="140" height="182" rx="8" fill="#FFFFFF" stroke="#93C5FD" stroke-width="1.2"/>
+  <rect x="12" y="32" width="140" height="24" rx="8" fill="#DBEAFE"/>
+  <text x="82" y="48" text-anchor="middle" font-size="10.5" font-weight="700" fill="#1E40AF">1. GIAO: A ∩ B</text>
+  <circle cx="66" cy="102" r="28" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.6"/>
+  <circle cx="98" cy="102" r="28" fill="#EFF6FF" stroke="#0D9488" stroke-width="1.6"/>
+  <!-- Lens intersection -->
+  <path d="M 82 78.6 A 28 28 0 0 1 82 125.4 A 28 28 0 0 1 82 78.6 Z" fill="#3B82F6" fill-opacity="0.78" stroke="#1D4ED8" stroke-width="1.2"/>
+  <text x="50" y="106" font-size="10" font-weight="700" fill="#1E40AF">A</text>
+  <text x="108" y="106" font-size="10" font-weight="700" fill="#0F766E">B</text>
+  <text x="82" y="148" text-anchor="middle" font-size="9.2" font-weight="700" fill="#0F172A">x ∈ A  VÀ  x ∈ B</text>
+  <text x="82" y="164" text-anchor="middle" font-size="8.6" fill="#475569">Phần chung của A và B</text>
+  <text x="82" y="182" text-anchor="middle" font-size="8.5" font-weight="600" fill="#1D4ED8">Từ khóa: “và”, “đồng thời”,</text>
+  <text x="82" y="195" text-anchor="middle" font-size="8.5" font-weight="600" fill="#1D4ED8">“giỏi cả 2 môn”</text>
+
+  <!-- Card 2: Union A ∪ B -->
+  <rect x="162" y="32" width="140" height="182" rx="8" fill="#FFFFFF" stroke="#5EEAD4" stroke-width="1.2"/>
+  <rect x="162" y="32" width="140" height="24" rx="8" fill="#CCFBF1"/>
+  <text x="232" y="48" text-anchor="middle" font-size="10.5" font-weight="700" fill="#0F766E">2. HỢP: A ∪ B</text>
+  <circle cx="216" cy="102" r="28" fill="#14B8A6" fill-opacity="0.65" stroke="#0F766E" stroke-width="1.6"/>
+  <circle cx="248" cy="102" r="28" fill="#14B8A6" fill-opacity="0.65" stroke="#0F766E" stroke-width="1.6"/>
+  <text x="200" y="106" font-size="10" font-weight="700" fill="#0F172A">A</text>
+  <text x="258" y="106" font-size="10" font-weight="700" fill="#0F172A">B</text>
+  <text x="232" y="148" text-anchor="middle" font-size="9.2" font-weight="700" fill="#0F172A">x ∈ A  HOẶC  x ∈ B</text>
+  <text x="232" y="164" text-anchor="middle" font-size="8.6" fill="#475569">Gộp tất cả phần tử A, B</text>
+  <text x="232" y="182" text-anchor="middle" font-size="8.5" font-weight="600" fill="#0F766E">Từ khóa: “hoặc”, “ít nhất</text>
+  <text x="232" y="195" text-anchor="middle" font-size="8.5" font-weight="600" fill="#0F766E">một trong hai môn”</text>
+
+  <!-- Card 3: Difference A \ B -->
+  <rect x="312" y="32" width="140" height="182" rx="8" fill="#FFFFFF" stroke="#FCD34D" stroke-width="1.2"/>
+  <rect x="312" y="32" width="140" height="24" rx="8" fill="#FEF3C7"/>
+  <text x="382" y="48" text-anchor="middle" font-size="10.5" font-weight="700" fill="#92400E">3. HIỆU: A \ B</text>
+  <circle cx="366" cy="102" r="28" fill="#F59E0B" fill-opacity="0.72" stroke="#B45309" stroke-width="1.6"/>
+  <circle cx="398" cy="102" r="28" fill="#FFFFFF" stroke="#64748B" stroke-width="1.6"/>
+  <circle cx="366" cy="102" r="28" fill="none" stroke="#B45309" stroke-width="1.6"/>
+  <text x="350" y="106" font-size="10" font-weight="700" fill="#78350F">A</text>
+  <text x="408" y="106" font-size="10" font-weight="700" fill="#475569">B</text>
+  <text x="382" y="148" text-anchor="middle" font-size="9.2" font-weight="700" fill="#0F172A">x ∈ A  NHƯNG  x ∉ B</text>
+  <text x="382" y="164" text-anchor="middle" font-size="8.6" fill="#475569">Thuộc riêng A, bỏ phần B</text>
+  <text x="382" y="182" text-anchor="middle" font-size="8.5" font-weight="600" fill="#B45309">Từ khóa: “chỉ thuộc A”,</text>
+  <text x="382" y="195" text-anchor="middle" font-size="8.5" font-weight="600" fill="#B45309">“chỉ giỏi đúng môn A”</text>
+
+  <!-- Card 4: Complement C_E A -->
+  <rect x="462" y="32" width="136" height="182" rx="8" fill="#FFFFFF" stroke="#FCA5A5" stroke-width="1.2"/>
+  <rect x="462" y="32" width="136" height="24" rx="8" fill="#FEE2E2"/>
+  <text x="530" y="48" text-anchor="middle" font-size="10.5" font-weight="700" fill="#991B1B">4. PHẦN BÙ: C_E(A)</text>
+  <ellipse cx="530" cy="102" rx="46" ry="30" fill="#EF4444" fill-opacity="0.55" stroke="#991B1B" stroke-width="1.6"/>
+  <circle cx="530" cy="102" r="16" fill="#FFFFFF" stroke="#1E293B" stroke-width="1.5"/>
+  <text x="530" y="106" text-anchor="middle" font-size="9.5" font-weight="700" fill="#0F172A">A</text>
+  <text x="494" y="88" font-size="9.5" font-weight="700" fill="#7F1D1D">E</text>
+  <text x="530" y="148" text-anchor="middle" font-size="9.2" font-weight="700" fill="#0F172A">C_E(A) = E \ A (A ⊂ E)</text>
+  <text x="530" y="164" text-anchor="middle" font-size="8.6" fill="#475569">Phần của E nằm ngoài A</text>
+  <text x="530" y="182" text-anchor="middle" font-size="8.5" font-weight="600" fill="#DC2626">Trên trục số ℝ:</text>
+  <text x="530" y="195" text-anchor="middle" font-size="8.5" font-weight="600" fill="#DC2626">C_ℝ(A) = ℝ \ A</text>
+
+  <!-- Card 5: Inclusion-Exclusion Formula -->
+  <rect x="608" y="32" width="140" height="182" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1.2"/>
+  <text x="678" y="50" text-anchor="middle" font-size="10" font-weight="700" fill="#FACC15">CÔNG THỨC ĐẾM VEN</text>
+  <line x1="618" y1="56" x2="738" y2="56" stroke="#475569" stroke-width="1"/>
+  <text x="678" y="73" text-anchor="middle" font-size="8.8" font-weight="700" fill="#93C5FD">• Hai tập hợp A, B:</text>
+  <text x="678" y="88" text-anchor="middle" font-size="8.8" font-weight="700" fill="#FFFFFF">n(A∪B) = n(A)+n(B)−n(A∩B)</text>
+  <text x="678" y="105" text-anchor="middle" font-size="8.3" fill="#6EE7B7">Chỉ riêng A: n(A\B)=n(A)−n(A∩B)</text>
+  <text x="678" y="120" text-anchor="middle" font-size="8.3" fill="#FCD34D">Cả lớp E (có k em không</text>
+  <text x="678" y="132" text-anchor="middle" font-size="8.3" fill="#FCD34D">tham gia môn nào):</text>
+  <text x="678" y="146" text-anchor="middle" font-size="8.8" font-weight="700" fill="#FFFFFF">n(E) = n(A∪B) + k</text>
+  <line x1="618" y1="154" x2="738" y2="154" stroke="#475569" stroke-width="1"/>
+  <text x="678" y="169" text-anchor="middle" font-size="8.6" font-weight="700" fill="#FCA5A5">• Số tập con của A (n phần tử):</text>
+  <text x="678" y="184" text-anchor="middle" font-size="9.2" font-weight="700" fill="#FACC15">Tổng số tập con = 2ⁿ</text>
+  <text x="678" y="198" text-anchor="middle" font-size="8.2" fill="#E2E8F0">Khác ∅: 2ⁿ − 1 | Thực sự: 2ⁿ − 1</text>
+</svg>

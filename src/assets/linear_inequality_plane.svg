@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 240" width="760" height="240" font-family="Be Vietnam Pro, DejaVu Sans, sans-serif">
+  <defs>
+    <marker id="arrAx" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#0F172A"/>
+    </marker>
+    <pattern id="hatchRed" width="8" height="8" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#FCA5A5" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect x="0" y="0" width="760" height="240" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.2"/>
+
+  <!-- Left Panel: Single BPT 2x + y <= 4 -->
+  <rect x="12" y="12" width="360" height="216" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="192" y="30" text-anchor="middle" font-size="11" font-weight="700" fill="#0F172A">A. Miền nghiệm BPT: 2x + y ≤ 4 (Mục 2.1)</text>
+
+  <!-- Shaded discarded half-plane (2x + y > 4) -->
+  <polygon points="105,42 290,42 290,205 225,205" fill="url(#hatchRed)"/>
+  <!-- Feasible half-plane (2x + y <= 4) -->
+  <polygon points="40,42 105,42 225,205 40,205" fill="#DBEAFE" fill-opacity="0.45"/>
+
+  <!-- Axes: O at (125, 165), scale: 1 unit = 30px -->
+  <!-- Line 2x + y = 4 passes through (0,4)->(125, 45) and (2,0)->(185, 165) -->
+  <line x1="40" y1="165" x2="295" y2="165" stroke="#0F172A" stroke-width="1.5" marker-end="url(#arrAx)"/>
+  <line x1="125" y1="210" x2="125" y2="40" stroke="#0F172A" stroke-width="1.5" marker-end="url(#arrAx)"/>
+  <!-- Boundary line d: 2x + y = 4 through (105, 5) clipped to (125,45) and (185,165) -> slope dy/dx = 120/60 = 2 -->
+  <line x1="120" y1="35" x2="205" y2="205" stroke="#1D4ED8" stroke-width="2.5"/>
+
+  <circle cx="125" cy="165" r="3.5" fill="#DC2626"/>
+  <circle cx="125" cy="45" r="3.5" fill="#1D4ED8"/>
+  <circle cx="185" cy="165" r="3.5" fill="#1D4ED8"/>
+  <text x="86" y="179" font-size="9.5" font-weight="700" fill="#DC2626">O(0;0)</text>
+  <text x="84" y="48" font-size="9.5" font-weight="700" fill="#1D4ED8">B(0;4)</text>
+  <text x="186" y="180" font-size="9.5" font-weight="700" fill="#1D4ED8">A(2;0)</text>
+  <text x="285" y="179" font-size="10" font-weight="700" fill="#0F172A">x</text>
+  <text x="112" y="46" font-size="10" font-weight="700" fill="#0F172A">y</text>
+
+  <text x="78" y="120" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1E40AF">MIỀN NGHIỆM</text>
+  <text x="78" y="133" text-anchor="middle" font-size="8.5" fill="#1E40AF">(Không bị gạch,</text>
+  <text x="78" y="145" text-anchor="middle" font-size="8.5" fill="#1E40AF">chứa O, kể cả bờ d)</text>
+
+  <rect x="210" y="52" width="152" height="100" rx="6" fill="#F8FAFC" stroke="#93C5FD" stroke-width="1"/>
+  <text x="286" y="68" text-anchor="middle" font-size="9.2" font-weight="700" fill="#1E40AF">Quy trình 3 bước chuẩn:</text>
+  <text x="218" y="84" font-size="8.5" fill="#0F172A">B1: Vẽ bờ d: 2x + y = 4</text>
+  <text x="218" y="96" font-size="8.5" fill="#475569">qua A(2;0) và B(0;4).</text>
+  <text x="218" y="111" font-size="8.5" fill="#0F172A">B2: Thử O(0;0): 2·0+0 = 0 ≤ 4</text>
+  <text x="218" y="123" font-size="8.5" font-weight="700" fill="#0F766E">→ ĐÚNG (chứa gốc O).</text>
+  <text x="218" y="138" font-size="8.5" fill="#DC2626">B3: Gạch bỏ nửa không chứa O.</text>
+
+  <!-- Right Panel: Reading BPT from Graph & Boundary Rules -->
+  <rect x="386" y="12" width="362" height="216" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="567" y="30" text-anchor="middle" font-size="11" font-weight="700" fill="#0F172A">B. Mẹo Đọc Nhanh Phương Trình Đường Bờ &amp; Dấu BPT</text>
+
+  <rect x="400" y="42" width="334" height="54" rx="6" fill="#EFF6FF" stroke="#93C5FD" stroke-width="1"/>
+  <text x="410" y="59" font-size="9.5" font-weight="700" fill="#1E40AF">1. Công thức đoạn chắn (cực nhanh cho Trắc nghiệm &amp; Đúng/Sai):</text>
+  <text x="410" y="75" font-size="9" fill="#0F172A">Đường thẳng d cắt Ox tại A(a; 0) và cắt Oy tại B(0; b) (a, b ≠ 0) có PT:</text>
+  <text x="567" y="90" text-anchor="middle" font-size="10" font-weight="700" fill="#DC2626">x / a  +  y / b  =  1</text>
+
+  <rect x="400" y="104" width="334" height="54" rx="6" fill="#F0FDFA" stroke="#5EEAD4" stroke-width="1"/>
+  <text x="410" y="121" font-size="9.5" font-weight="700" fill="#0F766E">2. Phân biệt KỂ CẢ BỜ vs KHÔNG KỂ BỜ:</text>
+  <text x="410" y="137" font-size="9" fill="#0F172A">• BPT có dấu  ≤  hoặc  ≥  ↔  Tính cả đường bờ d (vẽ nét liền).</text>
+  <text x="410" y="151" font-size="9" fill="#0F172A">• BPT có dấu  &lt;  hoặc  &gt;  ↔  Không tính đường bờ d (vẽ nét đứt).</text>
+
+  <rect x="400" y="166" width="334" height="52" rx="6" fill="#FFFBEB" stroke="#FCD34D" stroke-width="1"/>
+  <text x="410" y="183" font-size="9.5" font-weight="700" fill="#B45309">3. Cảnh báo khi đường bờ d ĐI QUA GỐC O(0; 0) (c = 0):</text>
+  <text x="410" y="198" font-size="9" fill="#0F172A">Khi ax + by ≤ 0 (đi qua O), KHÔNG thử O(0;0)! Hãy lấy điểm</text>
+  <text x="410" y="211" font-size="9" font-weight="700" fill="#92400E">M(1; 0) hoặc N(0; 1) không nằm trên d để thử dấu!</text>
+</svg>

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 230" width="760" height="230" font-family="Be Vietnam Pro, DejaVu Sans, sans-serif">
+  <defs>
+    <marker id="arrTr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#0F172A"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="760" height="230" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.2"/>
+  <text x="380" y="22" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0F172A">NỬA ĐƯỜNG TRÒN ĐƠN VỊ (0° → 180°) &amp; DẤU GIÁ TRỊ LƯỢNG GIÁC (MỤC 3.1)</text>
+
+  <!-- Left Panel: Semicircle centered at O(195, 175), radius R = 115 -->
+  <rect x="12" y="32" width="366" height="186" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <!-- Axes -->
+  <line x1="45" y1="175" x2="345" y2="175" stroke="#0F172A" stroke-width="1.5" marker-end="url(#arrTr)"/>
+  <line x1="195" y1="202" x2="195" y2="42" stroke="#0F172A" stroke-width="1.5" marker-end="url(#arrTr)"/>
+  <!-- Semicircle R=115 from (80, 175) to (310, 175) -->
+  <path d="M 80 175 A 115 115 0 0 1 310 175" fill="#EFF6FF" fill-opacity="0.45" stroke="#1D4ED8" stroke-width="2.2"/>
+
+  <!-- Point M at 50 deg: x = 195 + 115*cos(50)=269, y = 175 - 115*sin(50)=87 -->
+  <!-- Point M' at 130 deg: x = 195 - 74 = 121, y = 87 -->
+  <line x1="195" y1="175" x2="269" y2="87" stroke="#DC2626" stroke-width="2.2"/>
+  <line x1="195" y1="175" x2="121" y2="87" stroke="#0D9488" stroke-width="2.2" stroke-dasharray="4,3"/>
+  <line x1="121" y1="87" x2="269" y2="87" stroke="#64748B" stroke-width="1.2" stroke-dasharray="3,3"/>
+  <line x1="269" y1="87" x2="269" y2="175" stroke="#DC2626" stroke-width="1.2" stroke-dasharray="3,3"/>
+  <line x1="121" y1="87" x2="121" y2="175" stroke="#0D9488" stroke-width="1.2" stroke-dasharray="3,3"/>
+
+  <!-- Angle arc alpha -->
+  <path d="M 225 175 A 30 30 0 0 0 214 152" fill="none" stroke="#DC2626" stroke-width="1.6"/>
+  <text x="232" y="164" font-size="10" font-weight="700" fill="#DC2626">α</text>
+  <text x="152" y="148" font-size="9" font-weight="700" fill="#0F766E">180°−α</text>
+
+  <circle cx="269" cy="87" r="4" fill="#DC2626"/>
+  <circle cx="121" cy="87" r="4" fill="#0D9488"/>
+  <text x="275" y="83" font-size="9.5" font-weight="700" fill="#DC2626">M(x₀; y₀)</text>
+  <text x="58" y="83" font-size="9.5" font-weight="700" fill="#0F766E">M'(−x₀; y₀)</text>
+  <text x="200" y="83" font-size="9" font-weight="700" fill="#1E40AF">y₀ = sin α &gt; 0</text>
+  <text x="248" y="190" font-size="8.8" font-weight="700" fill="#DC2626">x₀ = cos α</text>
+  <text x="112" y="190" font-size="8.8" font-weight="700" fill="#0F766E">−cos α</text>
+  <text x="312" y="190" font-size="9" font-weight="700" fill="#0F172A">A(1;0) [0°]</text>
+  <text x="24" y="168" font-size="8.6" font-weight="700" fill="#0F172A">A'(−1;0) [180°]</text>
+  <text x="202" y="55" font-size="9" font-weight="700" fill="#0F172A">B(0;1) [90°]</text>
+  <text x="186" y="190" font-size="9.5" font-weight="700" fill="#0F172A">O</text>
+
+  <!-- Right Panel: Sign Table & Supplementary/Complementary Rules -->
+  <rect x="390" y="32" width="358" height="186" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="569" y="50" text-anchor="middle" font-size="11" font-weight="700" fill="#0F172A">BẢNG XÉT DẤU (CÂU 8 TN) &amp; HAI GÓC BÙ NHAU / PHỤ NHAU</text>
+
+  <!-- Sign mini-table -->
+  <rect x="404" y="58" width="330" height="62" rx="5" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="404" y1="78" x2="734" y2="78" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="404" y1="99" x2="734" y2="99" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="534" y1="58" x2="534" y2="120" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="584" y1="58" x2="584" y2="120" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="634" y1="58" x2="634" y2="120" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="684" y1="58" x2="684" y2="120" stroke="#CBD5E1" stroke-width="1"/>
+
+  <text x="469" y="72" text-anchor="middle" font-size="9" font-weight="700" fill="#0F172A">Loại góc α</text>
+  <text x="559" y="72" text-anchor="middle" font-size="9" font-weight="700" fill="#1E40AF">sin α</text>
+  <text x="609" y="72" text-anchor="middle" font-size="9" font-weight="700" fill="#1E40AF">cos α</text>
+  <text x="659" y="72" text-anchor="middle" font-size="9" font-weight="700" fill="#1E40AF">tan α</text>
+  <text x="709" y="72" text-anchor="middle" font-size="9" font-weight="700" fill="#1E40AF">cot α</text>
+
+  <text x="469" y="92" text-anchor="middle" font-size="8.8" font-weight="600" fill="#0F766E">Góc nhọn (0° &lt; α &lt; 90°)</text>
+  <text x="559" y="92" text-anchor="middle" font-size="10" font-weight="800" fill="#0F766E">+</text>
+  <text x="609" y="92" text-anchor="middle" font-size="10" font-weight="800" fill="#0F766E">+</text>
+  <text x="659" y="92" text-anchor="middle" font-size="10" font-weight="800" fill="#0F766E">+</text>
+  <text x="709" y="92" text-anchor="middle" font-size="10" font-weight="800" fill="#0F766E">+</text>
+
+  <text x="469" y="113" text-anchor="middle" font-size="8.8" font-weight="600" fill="#DC2626">Góc tù (90° &lt; α &lt; 180°)</text>
+  <text x="559" y="113" text-anchor="middle" font-size="10" font-weight="800" fill="#0F766E">+</text>
+  <text x="609" y="113" text-anchor="middle" font-size="10" font-weight="800" fill="#DC2626">−</text>
+  <text x="659" y="113" text-anchor="middle" font-size="10" font-weight="800" fill="#DC2626">−</text>
+  <text x="709" y="113" text-anchor="middle" font-size="10" font-weight="800" fill="#DC2626">−</text>
+
+  <!-- Supplementary & Complementary boxes -->
+  <rect x="404" y="128" width="160" height="80" rx="6" fill="#FEF2F2" stroke="#FCA5A5" stroke-width="1"/>
+  <text x="484" y="143" text-anchor="middle" font-size="9.2" font-weight="700" fill="#991B1B">HAI GÓC BÙ NHAU (180° − α)</text>
+  <text x="484" y="157" text-anchor="middle" font-size="8.6" font-weight="700" fill="#0F766E">sin(180° − α) = +sin α</text>
+  <text x="484" y="171" text-anchor="middle" font-size="8.6" font-weight="700" fill="#DC2626">cos(180° − α) = −cos α</text>
+  <text x="484" y="185" text-anchor="middle" font-size="8.6" fill="#DC2626">tan(180° − α) = −tan α</text>
+  <text x="484" y="199" text-anchor="middle" font-size="8.6" fill="#DC2626">cot(180° − α) = −cot α</text>
+
+  <rect x="574" y="128" width="160" height="80" rx="6" fill="#EFF6FF" stroke="#93C5FD" stroke-width="1"/>
+  <text x="654" y="143" text-anchor="middle" font-size="9.2" font-weight="700" fill="#1E40AF">HAI GÓC PHỤ NHAU (90° − α)</text>
+  <text x="654" y="157" text-anchor="middle" font-size="8.6" font-weight="700" fill="#1D4ED8">sin(90° − α) = cos α</text>
+  <text x="654" y="171" text-anchor="middle" font-size="8.6" font-weight="700" fill="#1D4ED8">cos(90° − α) = sin α</text>
+  <text x="654" y="185" text-anchor="middle" font-size="8.6" fill="#1D4ED8">tan(90° − α) = cot α</text>
+  <text x="654" y="199" text-anchor="middle" font-size="8.6" fill="#1D4ED8">cot(90° − α) = tan α</text>
+</svg>

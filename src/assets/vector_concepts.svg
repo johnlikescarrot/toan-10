@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 220" width="760" height="220" font-family="Be Vietnam Pro, DejaVu Sans, sans-serif">
+  <defs>
+    <marker id="arrVBlue" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#2563EB"/>
+    </marker>
+    <marker id="arrVRed" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#DC2626"/>
+    </marker>
+    <marker id="arrVTeal" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#0D9488"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="760" height="220" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.2"/>
+  <text x="380" y="22" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0F172A">KHÁI NIỆM VECTƠ, HAI VECTƠ CÙNG PHƯƠNG &amp; HAI VECTƠ BẰNG NHAU (MỤC 4.1)</text>
+
+  <!-- Panel 1: Collinear, Same/Opposite Direction -->
+  <rect x="12" y="32" width="236" height="176" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="130" y="49" text-anchor="middle" font-size="10.2" font-weight="700" fill="#1E40AF">1. Giá, Cùng phương &amp; Cùng hướng</text>
+  <!-- Carrier lines -->
+  <line x1="26" y1="78" x2="232" y2="78" stroke="#CBD5E1" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <line x1="48" y1="78" x2="148" y2="78" stroke="#2563EB" stroke-width="2.8" marker-end="url(#arrVBlue)"/>
+  <text x="98" y="70" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1D4ED8">Vectơ a (gốc A, ngọn B)</text>
+
+  <line x1="26" y1="112" x2="232" y2="112" stroke="#CBD5E1" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <line x1="48" y1="112" x2="148" y2="112" stroke="#0D9488" stroke-width="2.8" marker-end="url(#arrVTeal)"/>
+  <text x="98" y="104" text-anchor="middle" font-size="9.5" font-weight="700" fill="#0F766E">Vectơ b = a (cùng hướng &amp; |b|=|a|)</text>
+
+  <line x1="26" y1="146" x2="232" y2="146" stroke="#CBD5E1" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <line x1="188" y1="146" x2="68" y2="146" stroke="#DC2626" stroke-width="2.8" marker-end="url(#arrVRed)"/>
+  <text x="128" y="138" text-anchor="middle" font-size="9.5" font-weight="700" fill="#DC2626">Vectơ c ngược hướng với a, b</text>
+
+  <rect x="22" y="164" width="216" height="36" rx="5" fill="#FEF3C7"/>
+  <text x="130" y="178" text-anchor="middle" font-size="8.6" font-weight="700" fill="#92400E">★ Quy ước: Vectơ-không (0) cùng phương</text>
+  <text x="130" y="192" text-anchor="middle" font-size="8.6" font-weight="700" fill="#92400E">và CÙNG HƯỚNG với mọi vectơ!</text>
+
+  <!-- Panel 2: Parallelogram ABCD -->
+  <rect x="258" y="32" width="236" height="176" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="376" y="49" text-anchor="middle" font-size="10.2" font-weight="700" fill="#0F766E">2. Hình bình hành ABCD tâm O</text>
+  <!-- A(300, 74), B(450, 74), C(420, 146), D(270, 146), O(360, 110) -->
+  <polygon points="300,74 450,74 420,146 270,146" fill="#F0FDFA" stroke="#94A3B8" stroke-width="1.5"/>
+  <line x1="300" y1="74" x2="420" y2="146" stroke="#CBD5E1" stroke-width="1.2" stroke-dasharray="3,3"/>
+  <line x1="270" y1="146" x2="450" y2="74" stroke="#CBD5E1" stroke-width="1.2" stroke-dasharray="3,3"/>
+  <!-- Vector AB and DC -->
+  <line x1="300" y1="74" x2="447" y2="74" stroke="#2563EB" stroke-width="2.6" marker-end="url(#arrVBlue)"/>
+  <line x1="270" y1="146" x2="417" y2="146" stroke="#2563EB" stroke-width="2.6" marker-end="url(#arrVBlue)"/>
+  <circle cx="360" cy="110" r="3.5" fill="#DC2626"/>
+  <text x="290" y="70" font-size="9.5" font-weight="700" fill="#0F172A">A</text>
+  <text x="455" y="70" font-size="9.5" font-weight="700" fill="#0F172A">B</text>
+  <text x="426" y="154" font-size="9.5" font-weight="700" fill="#0F172A">C</text>
+  <text x="256" y="154" font-size="9.5" font-weight="700" fill="#0F172A">D</text>
+  <text x="360" y="103" text-anchor="middle" font-size="9" font-weight="700" fill="#DC2626">O</text>
+
+  <text x="376" y="170" text-anchor="middle" font-size="8.8" font-weight="700" fill="#1E40AF">• AB = DC (chú ý thứ tự đỉnh! AB ≠ CD)</text>
+  <text x="376" y="184" text-anchor="middle" font-size="8.8" font-weight="700" fill="#0F766E">• AD = BC ;  BA = CD ;  AO = OC ;  DO = OB</text>
+  <text x="376" y="198" text-anchor="middle" font-size="8.5" fill="#DC2626">• OA và OC đối nhau (cùng độ dài, ngược hướng)</text>
+
+  <!-- Panel 3: Regular Hexagon ABCDEF center O -->
+  <rect x="504" y="32" width="244" height="176" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="626" y="49" text-anchor="middle" font-size="10.2" font-weight="700" fill="#B45309">3. Lục giác đều ABCDEF tâm O (Câu 12 TN)</text>
+  <!-- Center O(626, 108), R=44:
+       A(604, 70), B(648, 70), C(670, 108), D(648, 146), E(604, 146), F(582, 108) -->
+  <polygon points="604,70 648,70 670,108 648,146 604,146 582,108" fill="#FFFBEB" stroke="#D97706" stroke-width="1.6"/>
+  <line x1="604" y1="70" x2="648" y2="146" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="648" y1="70" x2="604" y2="146" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="582" y1="108" x2="670" y2="108" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="3,2"/>
+  <!-- Highlight equal vectors to AB: FO, OC, ED -->
+  <line x1="604" y1="70" x2="645" y2="70" stroke="#DC2626" stroke-width="2.5" marker-end="url(#arrVRed)"/>
+  <line x1="582" y1="108" x2="623" y2="108" stroke="#2563EB" stroke-width="2.2" marker-end="url(#arrVBlue)"/>
+  <line x1="626" y1="108" x2="667" y2="108" stroke="#2563EB" stroke-width="2.2" marker-end="url(#arrVBlue)"/>
+  <line x1="604" y1="146" x2="645" y2="146" stroke="#2563EB" stroke-width="2.2" marker-end="url(#arrVBlue)"/>
+  <circle cx="626" cy="108" r="3" fill="#0F172A"/>
+  <text x="595" y="66" font-size="8.8" font-weight="700" fill="#DC2626">A</text>
+  <text x="651" y="66" font-size="8.8" font-weight="700" fill="#DC2626">B</text>
+  <text x="675" y="111" font-size="8.8" font-weight="700" fill="#0F172A">C</text>
+  <text x="652" y="156" font-size="8.8" font-weight="700" fill="#0F172A">D</text>
+  <text x="594" y="156" font-size="8.8" font-weight="700" fill="#0F172A">E</text>
+  <text x="570" y="111" font-size="8.8" font-weight="700" fill="#0F172A">F</text>
+  <text x="626" y="102" text-anchor="middle" font-size="8.5" font-weight="700" fill="#0F172A">O</text>
+
+  <text x="626" y="172" text-anchor="middle" font-size="8.6" font-weight="700" fill="#DC2626">• Có 3 vectơ bằng AB là: FO, OC, ED</text>
+  <text x="626" y="186" text-anchor="middle" font-size="8.5" fill="#1E40AF">• Có 9 vectơ (≠ 0) cùng phương với AB:</text>
+  <text x="626" y="199" text-anchor="middle" font-size="8.2" fill="#475569">BA, FO, OF, OC, CO, FC, CF, ED, DE</text>
+</svg>

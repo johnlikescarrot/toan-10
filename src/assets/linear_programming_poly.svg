@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 235" width="760" height="235" font-family="Be Vietnam Pro, DejaVu Sans, sans-serif">
+  <defs>
+    <marker id="arrLP" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#0F172A"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="760" height="235" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.2"/>
+  <text x="380" y="22" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0F172A">MÔ HÌNH BÀI TOÁN TỐI ƯU HỆ BPT BẬC NHẤT HAI ẨN (CÂU 3 TỰ LUẬN VDC — 1,0 ĐIỂM)</text>
+
+  <!-- Left Coordinate Plot: O(60, 195), scale: 1 unit = 18px -->
+  <!-- System: x >= 0, y >= 0, x + 2y <= 8, 3x + y <= 9 -->
+  <!-- Vertices: O(0,0)->(60,195); A(3,0)->(114,195); B(2,3)->(96,141); C(0,4)->(60,123) -->
+  <!-- Wait let's make scale larger: 1 unit = 32px! O(65, 198):
+       C(0,4) -> (65, 70)
+       B(2,3) -> (129, 102)
+       A(3,0) -> (161, 198) -->
+  <rect x="14" y="32" width="320" height="190" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <!-- Feasible Polygon OABC -->
+  <polygon points="65,198 161,198 129,102 65,70" fill="#CCFBF1" stroke="#0D9488" stroke-width="2"/>
+  <!-- Line d1: x + 2y = 8 through (0,4)->(65,70) and (8,0)->(321,198) -->
+  <line x1="50" y1="62.5" x2="290" y2="182.5" stroke="#2563EB" stroke-width="1.8"/>
+  <!-- Line d2: 3x + y = 9 through (1,6)->(97,6)->clip at (110,45) and (3,0)->(161,198) -->
+  <line x1="110" y1="45" x2="166" y2="213" stroke="#DC2626" stroke-width="1.8"/>
+
+  <!-- Axes -->
+  <line x1="35" y1="198" x2="310" y2="198" stroke="#0F172A" stroke-width="1.6" marker-end="url(#arrLP)"/>
+  <line x1="65" y1="215" x2="65" y2="38" stroke="#0F172A" stroke-width="1.6" marker-end="url(#arrLP)"/>
+
+  <!-- Dashed coords for B(2; 3) -->
+  <line x1="129" y1="102" x2="129" y2="198" stroke="#64748B" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="65" y1="102" x2="129" y2="102" stroke="#64748B" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- Vertices dots -->
+  <circle cx="65" cy="198" r="4" fill="#0F172A"/>
+  <circle cx="161" cy="198" r="4" fill="#DC2626"/>
+  <circle cx="129" cy="102" r="4.5" fill="#B91C1C"/>
+  <circle cx="65" cy="70" r="4" fill="#2563EB"/>
+
+  <text x="48" y="212" font-size="9.5" font-weight="700" fill="#0F172A">O(0;0)</text>
+  <text x="155" y="213" font-size="9.5" font-weight="700" fill="#DC2626">A(3;0)</text>
+  <text x="136" y="100" font-size="10" font-weight="700" fill="#B91C1C">B(2;3) ★ Đỉnh tối ưu</text>
+  <text x="28" y="74" font-size="9.5" font-weight="700" fill="#2563EB">C(0;4)</text>
+  <text x="125" y="212" font-size="8.8" fill="#475569">2</text>
+  <text x="52" y="105" font-size="8.8" fill="#475569">3</text>
+  <text x="86" y="155" font-size="9.5" font-weight="700" fill="#0F766E">Miền</text>
+  <text x="86" y="168" font-size="9.5" font-weight="700" fill="#0F766E">OABC</text>
+  <text x="225" y="142" font-size="8.8" font-weight="600" fill="#2563EB">d₁: x + 2y = 8</text>
+  <text x="152" y="65" font-size="8.8" font-weight="600" fill="#DC2626">d₂: 3x + y = 9</text>
+
+  <!-- Right Panel: 4-Step Method to Get Full 1.0 Point -->
+  <rect x="348" y="32" width="398" height="190" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="547" y="50" text-anchor="middle" font-size="11" font-weight="700" fill="#1E40AF">QUY TRÌNH 4 BƯỚC ĂN TRỌN 1,0 ĐIỂM CÂU 3 TỰ LUẬN</text>
+  <line x1="360" y1="57" x2="734" y2="57" stroke="#E2E8F0" stroke-width="1"/>
+
+  <text x="360" y="75" font-size="9.3" font-weight="700" fill="#0F172A">• Bước 1 (0,25 đ) — Gọi ẩn &amp; Lập hệ BPT + Hàm mục tiêu:</text>
+  <text x="368" y="90" font-size="8.8" fill="#334155">Gọi x, y (x ≥ 0, y ≥ 0) là số lượng cần tìm. Từ định mức nguyên liệu/thời gian</text>
+  <text x="368" y="102" font-size="8.8" fill="#334155">lập hệ BPT bậc nhất hai ẩn và biểu thức lợi nhuận/chi phí F(x; y) = ax + by.</text>
+
+  <text x="360" y="121" font-size="9.3" font-weight="700" fill="#0F766E">• Bước 2 (0,25 đ) — Biểu diễn miền nghiệm &amp; Tìm tọa độ các đỉnh:</text>
+  <text x="368" y="136" font-size="8.8" fill="#334155">Vẽ các đường thẳng bờ trên Oxy. Miền nghiệm là miền đa giác lồi OABC.</text>
+  <text x="368" y="148" font-size="8.8" fill="#334155">Giải hệ PT giao điểm các đường bờ để tìm tọa độ các đỉnh: O(0;0), A(3;0), B(2;3), C(0;4).</text>
+
+  <text x="360" y="167" font-size="9.3" font-weight="700" fill="#B45309">• Bước 3 (0,25 đ) — Tính giá trị F(x; y) tại từng đỉnh đa giác:</text>
+  <text x="368" y="182" font-size="8.8" fill="#334155">VD với F(x; y) = 4x + 3y: F(O) = 0; F(A) = 12; F(B) = 4·2 + 3·3 = 17; F(C) = 12.</text>
+
+  <text x="360" y="201" font-size="9.3" font-weight="700" fill="#DC2626">• Bước 4 (0,25 đ) — So sánh &amp; Kết luận thực tế:</text>
+  <text x="368" y="215" font-size="8.8" font-weight="700" fill="#991B1B">Giá trị lớn nhất F_max = 17 đạt tại đỉnh B(2; 3) (kiểm tra x, y nguyên nếu đề yêu cầu).</text>
+</svg>
