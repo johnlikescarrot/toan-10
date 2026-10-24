@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="215" viewBox="0 0 340 215">
+<defs>
+  <pattern id="hG2" width="7" height="7" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="0" x2="0" y2="7" stroke="#64748B" stroke-width="1.3" stroke-opacity="0.65"/>
+  </pattern>
+  <clipPath id="cG2"><rect x="20" y="14" width="300" height="185"/></clipPath>
+</defs>
+<rect x="2" y="2" width="336" height="211" rx="7" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.1"/>
+<line x1="47.3" y1="14" x2="47.3" y2="199" stroke="#E2E8F0" stroke-width="0.8"/>
+<line x1="101.8" y1="14" x2="101.8" y2="199" stroke="#E2E8F0" stroke-width="0.8"/>
+<line x1="156.4" y1="14" x2="156.4" y2="199" stroke="#E2E8F0" stroke-width="0.8"/>
+<line x1="210.9" y1="14" x2="210.9" y2="199" stroke="#E2E8F0" stroke-width="0.8"/>
+<line x1="265.5" y1="14" x2="265.5" y2="199" stroke="#E2E8F0" stroke-width="0.8"/>
+<line x1="320.0" y1="14" x2="320.0" y2="199" stroke="#E2E8F0" stroke-width="0.8"/>
+<line x1="20" y1="180.5" x2="320" y2="180.5" stroke="#E2E8F0" stroke-width="0.8"/>
+<line x1="20" y1="143.5" x2="320" y2="143.5" stroke="#E2E8F0" stroke-width="0.8"/>
+<line x1="20" y1="106.5" x2="320" y2="106.5" stroke="#E2E8F0" stroke-width="0.8"/>
+<line x1="20" y1="69.5" x2="320" y2="69.5" stroke="#E2E8F0" stroke-width="0.8"/>
+<line x1="20" y1="32.5" x2="320" y2="32.5" stroke="#E2E8F0" stroke-width="0.8"/>
+<line x1="20" y1="106.5" x2="320" y2="106.5" stroke="#0F172A" stroke-width="1.4"/>
+<polygon points="314,103.0 322,106.5 314,110.0" fill="#0F172A"/>
+<text x="316" y="99.5" font-family="Be Vietnam Pro" font-size="11" font-style="italic" font-weight="bold" fill="#0F172A">x</text>
+<line x1="101.8" y1="199" x2="101.8" y2="14" stroke="#0F172A" stroke-width="1.4"/>
+<polygon points="98.3,20 101.8,12 105.3,20" fill="#0F172A"/>
+<text x="109.8" y="24" font-family="Be Vietnam Pro" font-size="11" font-style="italic" font-weight="bold" fill="#0F172A">y</text>
+<text x="91.8" y="119.5" font-family="Be Vietnam Pro" font-size="10" font-weight="bold" fill="#0F172A">O</text>
+<polygon points="-7.3,180.5 347.3,60.2 347.3,217.5 -7.3,217.5" fill="url(#hG2)" clip-path="url(#cG2)"/>
+<line x1="-7.3" y1="180.5" x2="347.3" y2="60.2" stroke="#0F766E" stroke-width="2.1" stroke-dasharray="6,4" clip-path="url(#cG2)"/>
+<circle cx="210.9" cy="106.5" r="3" fill="#0F766E"/>
+<circle cx="101.8" cy="143.5" r="3" fill="#0F766E"/>
+<text x="207.9" y="99.5" font-family="Be Vietnam Pro" font-size="10.5" font-weight="bold" fill="#0F766E">2</text>
+<text x="84.8" y="147.5" font-family="Be Vietnam Pro" font-size="10.5" font-weight="bold" fill="#0F766E">-1</text>
+</svg>
