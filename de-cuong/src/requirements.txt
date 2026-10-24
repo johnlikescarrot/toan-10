@@ -1,0 +1,4 @@
+# Thư viện cần để sinh lại file PDF từ mã nguồn.
+# Cài: python3 -m venv .venv && .venv/bin/pip install -r de-cuong/src/requirements.txt
+fpdf2==2.8.9
+fonttools>=4.0

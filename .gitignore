@@ -1,0 +1,4 @@
+# Công cụ / môi trường tạm khi biên soạn
+.arena/
+__pycache__/
+*.pyc

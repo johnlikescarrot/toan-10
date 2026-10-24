@@ -1,0 +1,3 @@
+# Thêm cho các script KIỂM TRA (không cần để sinh PDF).
+# Cài: .venv/bin/pip install -r de-cuong/src/requirements.txt -r de-cuong/src/requirements-dev.txt
+pypdfium2>=4.0
