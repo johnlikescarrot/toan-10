@@ -1,0 +1,274 @@
+#H1 PHẦN 4. ĐÁP ÁN VÀ LỜI GIẢI CHI TIẾT
+#H2 4.1. Đáp án nhanh toàn đề
+#H4 Phần I - Trắc nghiệm nhiều phương án lựa chọn (mỗi câu 0,25 điểm)
+#TABLE
+Câu | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12
+Đáp án | **D** | **B** | **C** | **C** | **A** | **D** | **A** | **A** | **D** | **A** | **B** | **B**
+#ENDTABLE
+#H4 Phần II - Trắc nghiệm Đúng - Sai
+#TABLE
+Câu | a | b | c | d | Số ý đúng | Điểm
+Câu 1 | **Đ** | **S** | **Đ** | **S** | 2 | 0,25
+Câu 2 | **Đ** | **Đ** | **S** | **Đ** | 3 | 0,50
+#ENDTABLE
+#H4 Phần III - Trắc nghiệm trả lời ngắn (mỗi câu 0,50 điểm)
+#TABLE
+Câu | 1 | 2 | 3 | 4
+Kết quả | **32** | **5** | **7** | **6**
+#ENDTABLE
+#H4 Phần IV - Tự luận (mỗi câu 1,0 điểm)
+#TABLE
+Câu | Kết quả chính
+Câu 1 | A ∩ B = (1; 5];  A ∪ B = [−2; 7);  A ∖ B = [−2; 1];  C_ℝ B = (−∞; 1] ∪ (7; +∞)
+Câu 2 | Khoảng cách từ tàu đến A xấp xỉ **103,7 m**
+Câu 3 | x = 4 sản phẩm loại I, y = 2 sản phẩm loại II; lợi nhuận lớn nhất **16 triệu đồng**
+#ENDTABLE
+#KEY **Tổng điểm tối đa: 3,0 + 2,0 + 2,0 + 3,0 = 10,0 điểm.**
+
+#PAGE
+#H2 4.2. Lời giải chi tiết Phần I - Trắc nghiệm (12 câu)
+#H3 Câu 1 - Chọn D
+#S **Phân tích:** Mệnh đề là câu **khẳng định** mà ta xác định được **đúng hoặc sai**.
+#S - Phương án A là **câu hỏi** ⇒ không phải mệnh đề.
+#S - Phương án B là **câu cầu khiến** ⇒ không phải mệnh đề.
+#S - Phương án C “x + 3 > 5” là **mệnh đề chứa biến**: chưa gán giá trị cho x thì chưa xác định được tính đúng sai ⇒ không phải mệnh đề.
+#S - Phương án D “Số 17 là số nguyên tố” là câu khẳng định và khẳng định đó **đúng** (17 chỉ có hai ước là 1 và 17) ⇒ là mệnh đề (mệnh đề đúng).
+#S **⇒ Chọn D.**
+
+#H3 Câu 2 - Chọn B
+#S **Quy tắc:** phủ định của **∀** là **∃**; phủ định của mệnh đề “x² + 1 > 0” là “x² + 1 ≤ 0” (đổi **>** thành **≤**).
+#S Vậy P̅: “**∃x ∈ ℝ, x² + 1 ≤ 0**”.
+#S - A sai vì vẫn dùng ∀ và phủ định “>” thành “<” (thiếu trường hợp bằng 0).
+#S - C sai vì **không phủ định phần kết luận**.
+#S - D sai vì **không đổi lượng từ** ∀ thành ∃.
+#S **Kiểm tra chéo:** P đúng (vì x² + 1 ≥ 1 > 0 với mọi x), nên P̅ phải **sai** - và đúng là “∃x ∈ ℝ, x² + 1 ≤ 0” là mệnh đề sai.
+#S **⇒ Chọn B.**
+
+#H3 Câu 3 - Chọn C
+#S **Phân tích:** **ℕ*** là tập các số tự nhiên **khác 0**: ℕ* = {1; 2; 3; 4; ...}. Điều kiện x ≤ 4 cho x ∈ {1; 2; 3; 4}.
+#S Vậy A = **{1; 2; 3; 4}**.
+#S - A sai vì chứa 0 (0 ∉ ℕ*).
+#S - B sai vì thiếu phần tử 4.
+#S - D sai vì chứa 5 (5 > 4).
+#S **⇒ Chọn C.**
+#WARN **Nhớ kĩ:** ℕ = {0; 1; 2; ...} **có số 0**; ℕ* = {1; 2; 3; ...} **không có số 0**. Đây là bẫy xuất hiện rất nhiều trong đề.
+
+#H3 Câu 4 - Chọn C
+#S **Phân tích:** Phần **chung** của hai hình tròn chính là tập các phần tử vừa thuộc A vừa thuộc B, tức **A ∩ B** (giao).
+#S - A “A ∖ B” là phần của A **không** thuộc B (hình lưỡi liềm bên trái) ⇒ sai.
+#S - B “A ∪ B” là **toàn bộ** hai hình tròn ⇒ sai.
+#S - D “C_ℝ A” là phần **bên ngoài** A ⇒ sai.
+#S **⇒ Chọn C.**
+
+#H3 Câu 5 - Chọn A
+#S **Phân tích:** Bất phương trình bậc nhất hai ẩn có dạng **ax + by ≤ c** (hoặc ≥, <, >) với **a, b không đồng thời bằng 0** và **mỗi ẩn chỉ có bậc 1**.
+#S - A: 2x − 3y ≤ 5 có a = 2, b = −3 ≠ 0, các ẩn bậc nhất ⇒ **đúng**.
+#S - B: có **x²** ⇒ ẩn bậc hai ⇒ loại.
+#S - C: có **y²** ⇒ ẩn bậc hai ⇒ loại.
+#S - D: x(y + 1) = xy + x có hạng tử **xy** (bậc hai đối với hai ẩn) ⇒ loại.
+#S **⇒ Chọn A.**
+
+#H3 Câu 6 - Chọn D
+#S **Phân tích:** Hệ bậc nhất hai ẩn chỉ được chứa các bất phương trình **bậc nhất** hai ẩn. Chỉ cần một bất phương trình có ẩn bậc hai là cả hệ bị loại.
+#S - A, B, C đều chỉ gồm các bất phương trình bậc nhất hai ẩn (x, y bậc 1) ⇒ là hệ bậc nhất hai ẩn.
+#S - D có bất phương trình **x² + y ≤ 4** chứa **x²** ⇒ **không phải** hệ bất phương trình bậc nhất hai ẩn.
+#S **⇒ Chọn D.**
+
+#H3 Câu 7 - Chọn A
+#S **Phân tích:** 120° và 60° là hai góc **bù nhau** (tổng bằng 180°). Với hai góc bù nhau thì **sin bằng nhau**:
+#S **sin 120° = sin(180° − 60°) = sin 60° = √3/2.**
+#S - B (−√3/2) là giá trị **cos 150°**, không phải sin 120°.
+#S - C (1/2) = sin 30° = cos 60°.
+#S - D (−1/2) = cos 120°.
+#S **⇒ Chọn A.**
+#NOTE **Ghi nhớ:** Với góc tù, chỉ có **sin dương**; cos, tan, cot đều **âm**. Vì vậy đáp án nào cho sin 120° là số âm (B, D) đều loại ngay.
+
+#H3 Câu 8 - Chọn A
+#S **Giải:** Áp dụng hệ thức cơ bản **sin²α + cos²α = 1**:
+#S sin²α = 1 − cos²α = 1 − (1/3)² = 1 − 1/9 = **8/9**.
+#S Vì 0° < α < 90° (góc nhọn) nên **sin α > 0**, suy ra sin α = √(8/9) = (2√2)/3.
+#S - B (√2/3) sai vì lấy căn của 2/9 - nhầm khi chia.
+#S - C (2/3) sai vì bình phương lên được 4/9 ≠ 8/9.
+#S - D (8/9) chính là **sin²α**, chưa lấy căn.
+#S **⇒ Chọn A.**
+
+#H3 Câu 9 - Chọn D
+#S **Phân tích:** **Định lí sin:** a / sin A = b / sin B = c / sin C = **2R**.
+#S - A sai: từ định lí sin suy ra a = **2R·sin A**, không phải 2R·cos A.
+#S - B sai: thiếu hệ số **2** (a/sin A = 2R chứ không phải R).
+#S - C sai: a² = b² + c² **−** 2bc·cos A (dấu trừ, không phải dấu cộng).
+#S **⇒ Chọn D.**
+
+#H3 Câu 10 - Chọn A
+#S **Giải:** Cạnh AB đối diện góc C, nên theo **định lí côsin**:
+#S AB² = BC² + AC² − 2·BC·AC·cos C = 7² + 8² − 2·7·8·cos 60° = 49 + 64 − 2·56·(1/2) = 113 − 56 = **57**.
+#S Suy ra **AB = √57 ≈ 7,55**.
+#S - B (57) là AB², quên lấy căn.
+#S - C (√113) ứng với trường hợp tam giác **vuông** tại C (dùng dấu cộng).
+#S - D (13) là 7 + 8 − 2 = 13, không có cơ sở.
+#S **⇒ Chọn A.**
+
+#H3 Câu 11 - Chọn B
+#S **Giải:** Vectơ khác vectơ-không được xác định bởi **điểm đầu** và **điểm cuối** phân biệt. Với 3 đỉnh A, B, C: mỗi đỉnh có **2** cách chọn làm điểm cuối ⇒ có **3 × 2 = 6** vectơ.
+#S Liệt kê đầy đủ: **AB, AC, BA, BC, CA, CB** ⇒ đúng 6 vectơ.
+#S - A (3) là số **đoạn thẳng**, không phải số vectơ (quên rằng AB và BA là hai vectơ khác nhau).
+#S - C (9), D (12) là kết quả đếm sai.
+#S **⇒ Chọn B.**
+#NOTE **Công thức tổng quát:** với **n** điểm phân biệt (không có ba điểm nào trùng nhau) thì có **n(n − 1)** vectơ khác **0** có điểm đầu, điểm cuối thuộc tập điểm đó.
+
+#H3 Câu 12 - Chọn B
+#S **Phân tích:** Trong hình vuông ABCD (ghi theo thứ tự), cạnh AB song song và **cùng hướng** với cạnh DC; hai cạnh này có cùng độ dài a.
+#S - A sai: **AB** và **CD** có cùng độ dài nhưng **ngược hướng** (AB đi từ A đến B, CD đi từ C đến D - ngược chiều) ⇒ không bằng nhau.
+#S - B **đúng**: **AB** và **DC** cùng hướng, cùng độ dài a ⇒ **AB** = **DC**.
+#S - C sai: độ dài vectơ là một số **không âm**, không thể bằng −|**CD**|.
+#S - D sai: hai đường chéo AC và BD **vuông góc** với nhau nên giá của chúng không song song, do đó **AC** và **BD** không cùng phương.
+#S **⇒ Chọn B.**
+
+#PAGE
+#H2 4.3. Lời giải chi tiết Phần II - Đúng - Sai (2 câu, 8 ý)
+#H3 Câu 1. Cho A = {x ∈ ℝ | −1 ≤ x < 3} và B = {x ∈ ℝ | 1 < x ≤ 5}
+#S **Bước 1 - Viết lại hai tập hợp dưới dạng khoảng, nửa khoảng:**
+#S Từ −1 ≤ x < 3 suy ra **A = [−1; 3)**. Từ 1 < x ≤ 5 suy ra **B = (1; 5]**.
+#H4 Ý a) A = [−1; 3).  →  **ĐÚNG**
+#S Điều kiện −1 ≤ x cho đầu mút **−1 được lấy** (ngoặc vuông), điều kiện x < 3 cho đầu mút **3 không được lấy** (ngoặc tròn). Vậy A = [−1; 3). Khẳng định đúng.
+#H4 Ý b) B ⊂ A.  →  **SAI**
+#S Lấy x = 5. Ta có 5 ∈ B (vì 5 ≤ 5) nhưng 5 ∉ A (vì 5 > 3). Vậy tồn tại phần tử của B không thuộc A, nên **B không là tập con của A**.
+#H4 Ý c) A ∩ B = (1; 3).  →  **ĐÚNG**
+#S x ∈ A ∩ B ⇔ x ∈ A và x ∈ B ⇔ (−1 ≤ x < 3) và (1 < x ≤ 5) ⇔ **1 < x < 3**.
+#S Đầu mút 1: 1 ∈ A nhưng **1 ∉ B** ⇒ không lấy (ngoặc tròn). Đầu mút 3: 3 ∈ B nhưng **3 ∉ A** ⇒ không lấy (ngoặc tròn). Vậy A ∩ B = (1; 3). Khẳng định đúng.
+#H4 Ý d) A ∪ B = (−1; 5].  →  **SAI**
+#S x ∈ A ∪ B ⇔ x ∈ A **hoặc** x ∈ B ⇔ **−1 ≤ x ≤ 5**.
+#S Đầu mút −1: **−1 ∈ A** nên −1 thuộc hợp ⇒ phải **lấy** −1 (ngoặc vuông). Đầu mút 5: 5 ∈ B nên lấy 5.
+#S Vậy **A ∪ B = [−1; 5]**, khác với (−1; 5] (đã làm mất điểm −1). Khẳng định **sai**.
+#KEY **Kết quả: a) Đ - b) S - c) Đ - d) S ⇒ có 2 ý đúng ⇒ được 0,25 điểm.**
+#WARN **Bài học:** Sai lầm duy nhất ở câu này nằm ở **một điểm đầu mút** (−1). Khi làm bài, hãy khoanh tròn các đầu mút trên trục số rồi tự hỏi với **từng** đầu mút: *“Điểm này có thuộc tập đang xét không?”*
+
+#H3 Câu 2. Cho bất phương trình 2x + y ≤ 4 (1)
+#H4 Ý a) Cặp số (1; 1) là một nghiệm của (1).  →  **ĐÚNG**
+#S Thay x = 1, y = 1: 2·1 + 1 = **3 ≤ 4**, khẳng định đúng ⇒ (1; 1) là nghiệm của (1).
+#H4 Ý b) Điểm O(0; 0) thuộc miền nghiệm của (1).  →  **ĐÚNG**
+#S Thay x = 0, y = 0: 2·0 + 0 = **0 ≤ 4**, đúng ⇒ O(0; 0) là nghiệm, tức O thuộc miền nghiệm.
+#H4 Ý c) Điểm M(2; 1) thuộc miền nghiệm của (1).  →  **SAI**
+#S Thay x = 2, y = 1: 2·2 + 1 = **5 > 4**, không thỏa mãn (1) ⇒ M(2; 1) **không** thuộc miền nghiệm.
+#H4 Ý d) Miền nghiệm là nửa mặt phẳng bờ d: 2x + y = 4, chứa O và kể cả bờ d.  →  **ĐÚNG**
+#S Đường thẳng d: 2x + y = 4 đi qua hai điểm (2; 0) và (0; 4) và chia mặt phẳng thành hai nửa.
+#S Thay O(0; 0) được 0 ≤ 4 (đúng) ⇒ miền nghiệm là nửa mặt phẳng **bờ d chứa O**.
+#S Bất phương trình có dấu **≤** (không ngặt) ⇒ **lấy cả bờ d**. Vậy khẳng định đúng.
+#KEY **Kết quả: a) Đ - b) Đ - c) S - d) Đ ⇒ có 3 ý đúng ⇒ được 0,50 điểm.**
+#NOTE **Mẹo loại nhanh:** Ở câu Đúng - Sai về miền nghiệm, chỉ cần **thay tọa độ điểm** vào bất phương trình là biết ngay ý đó đúng hay sai - không cần vẽ hình. Chỉ riêng ý mô tả **“kể cả bờ” / “không kể bờ”** mới cần nhìn **dấu** của bất phương trình.
+
+#PAGE
+#H2 4.4. Lời giải chi tiết Phần III - Trả lời ngắn (4 câu)
+#H3 Câu 1 - Đáp số: 32
+#S **Giải:** Tập A có **n = 5** phần tử. Số tập con của A là **2ⁿ = 2⁵ = 32**.
+#S **Kiểm tra bằng cách liệt kê theo số phần tử:** số tập con có 0 phần tử: 1 (tập ∅); có 1 phần tử: 5; có 2 phần tử: 10; có 3 phần tử: 10; có 4 phần tử: 5; có 5 phần tử: 1. Tổng: 1 + 5 + 10 + 10 + 5 + 1 = **32**.
+#WARN **Bẫy:** Đừng nhầm với “số tập con **khác rỗng**” (31) hay “số tập con có **2 phần tử**” (10). Đề hỏi **tất cả** các tập con nên tính cả ∅ và chính A.
+
+#H3 Câu 2 - Đáp số: 5
+#S **Giải:** Gọi A là tập học sinh thích môn Toán, B là tập học sinh thích môn Ngữ văn (trong lớp 10A, 40 học sinh).
+#S Theo đề: n(A) = 25; n(B) = 20; n(A ∩ B) = 10 (học sinh thích **cả hai** môn).
+#S Số học sinh thích **ít nhất một** trong hai môn:
+#S **n(A ∪ B) = n(A) + n(B) − n(A ∩ B) = 25 + 20 − 10 = 35.**
+#S Số học sinh **không thích môn nào** trong hai môn: **40 − 35 = 5** học sinh.
+#S **Đáp số: 5.**
+#WARN **Bẫy:** Nếu cộng thẳng 25 + 20 = 45 rồi trừ 40 được 5 thì “may mắn” đúng số nhưng **lập luận sai** - vì 45 đã đếm hai lần nhóm 10 học sinh thích cả hai môn. Hãy luôn trừ phần giao trước.
+
+#H3 Câu 3 - Đáp số: 7
+#S **Giải:** Vì 0° < α < 90° nên cos α ≠ 0. Chia cả tử và mẫu của P cho cos α:
+#S P = (2sin α + 3cos α)/(sin α − cos α) = (2·tan α + 3)/(tan α − 1).
+#S Thay **tan α = 2**: P = (2·2 + 3)/(2 − 1) = 7/1 = **7**.
+#S **Đáp số: 7.**
+#NOTE **Cách 2 (kiểm tra lại):** Từ tan α = 2 suy ra sin α = 2cos α. Thay vào P: P = (4cos α + 3cos α)/(2cos α − cos α) = 7cos α / cos α = 7. Hai cách cho cùng kết quả.
+
+#H3 Câu 4 - Đáp số: 6
+#S **Giải:** Áp dụng công thức diện tích tam giác với hai cạnh AB, AC và góc xen giữa A:
+#S **S = (1/2)·AB·AC·sin A = (1/2)·6·4·sin 30° = 12·(1/2) = 6.**
+#S **Đáp số: 6** (đơn vị diện tích).
+#WARN **Bẫy:** Góc A là góc **xen giữa** hai cạnh AB và AC nên dùng được trực tiếp công thức (1/2)·AB·AC·sin A. Nếu đề cho góc không xen giữa, phải tính góc xen giữa trước bằng tổng ba góc = 180°.
+
+#PAGE
+#H2 4.5. Lời giải chi tiết Phần IV - Tự luận (3 câu)
+#H3 Câu 1 (1,0 điểm). Cho A = [−2; 5] và B = (1; 7)
+#H4 a) Tìm A ∩ B
+#S x ∈ A ∩ B ⇔ −2 ≤ x ≤ 5 **và** 1 < x < 7 ⇔ **1 < x ≤ 5**.
+#S Đầu mút 1: 1 ∈ A nhưng **1 ∉ B** ⇒ không lấy. Đầu mút 5: 5 ∈ A **và** 5 ∈ B ⇒ lấy.
+#S **A ∩ B = (1; 5].**
+#H4 b) Tìm A ∪ B
+#S x ∈ A ∪ B ⇔ −2 ≤ x ≤ 5 **hoặc** 1 < x < 7 ⇔ **−2 ≤ x < 7**.
+#S Đầu mút −2: −2 ∈ A ⇒ **lấy**. Đầu mút 7: vì B = (1; 7) nên **7 ∉ B**, và 7 ∉ A (do 7 > 5) ⇒ **không lấy**.
+#S **A ∪ B = [−2; 7).**
+#H4 c) Tìm A ∖ B
+#S x ∈ A ∖ B ⇔ x ∈ A **và x ∉ B** ⇔ −2 ≤ x ≤ 5 và (x ≤ 1 hoặc x ≥ 7) ⇔ **−2 ≤ x ≤ 1**.
+#S Đầu mút 1: 1 ∈ A và **1 ∉ B** nên 1 vẫn thuộc A ∖ B ⇒ **lấy 1**.
+#S **A ∖ B = [−2; 1].**
+#H4 d) Tìm phần bù của B trong ℝ
+#S C_ℝ B = ℝ ∖ B = {x ∈ ℝ | x ≤ 1 hoặc x ≥ 7}.
+#S Đầu mút 1: 1 ∉ B ⇒ **lấy 1**. Đầu mút 7: 7 ∉ B ⇒ **lấy 7**.
+#S **C_ℝ B = (−∞; 1] ∪ [7; +∞).**
+#H4 e) Biểu diễn trên trục số
+#B Tập A: đoạn kín ở −2, hở ở 5 (tô từ −2 đến 5, chấm đặc tại −2, chấm rỗng tại 5).
+#B Tập B: hở ở 1, kín ở 7 (tô từ 1 đến 7, chấm rỗng tại 1, chấm đặc tại 7).
+#B Kết quả **A ∩ B** là phần **chồng lên nhau** của hai dải: từ 1 đến 5, chấm rỗng tại 1 và chấm đặc tại 5.
+#TABLE
+Phần tử | −2 | 1 | 5 | 7
+Thuộc A? | có | có | có | không
+Thuộc B? | không | không | có | không
+Thuộc A ∩ B? | không | không | **có** | không
+Thuộc A ∪ B? | **có** | **có** | **có** | không
+Thuộc A ∖ B? | **có** | **có** | không | không
+Thuộc C_ℝ B? | **có** | **có** | không | **có**
+#ENDTABLE
+#KEY **Thang điểm:** viết đúng A, B dạng khoảng - đoạn: 0,25 đ; A ∩ B đúng: 0,25 đ; A ∪ B đúng: 0,25 đ; A ∖ B và C_ℝ B đúng: 0,25 đ. (Nếu chỉ sai **một** đầu mút thì trừ 0,25 đ của ý đó.)
+
+#H3 Câu 2 (1,0 điểm). Đo khoảng cách từ bờ biển đến con tàu
+#S **Bước 1 - Mô hình hóa.** Ba điểm A, B, C tạo thành tam giác ABC với AB = 100 m, ∠A = 45°, ∠B = 70°. Cần tính **AC**.
+#S **Bước 2 - Tính góc C.** Tổng ba góc trong tam giác bằng 180°:
+#S ∠C = 180° − ∠A − ∠B = 180° − 45° − 70° = **65°**.
+#S **Bước 3 - Áp dụng định lí sin.** Trong tam giác ABC:
+#S AC / sin B = AB / sin C  ⇒  **AC = AB · sin B / sin C**.
+#S Thay số: AC = 100 · sin 70° / sin 65° ≈ 100 · 0,9397 / 0,9063 ≈ **103,7 (m)**.
+#S **Kết luận:** Khoảng cách từ con tàu đến vị trí A xấp xỉ **103,7 m**.
+#NOTE **Vì sao dùng định lí sin mà không dùng định lí côsin?** Ta biết **một cạnh (AB) và hai góc (A, B)** - đây là tình huống “biết 1 cạnh và 2 góc”, phù hợp với định lí sin. Muốn dùng định lí côsin thì phải biết **hai cạnh và góc xen giữa**, mà đề chưa cho cạnh thứ hai.
+#KEY **Thang điểm:** tính đúng góc C = 65° (0,25 đ); viết đúng công thức định lí sin (0,25 đ); thay số và tính đúng (0,25 đ); kết luận có đơn vị và làm tròn đúng (0,25 đ).
+
+#H3 Câu 3 (1,0 điểm). Bài toán tối ưu - lập kế hoạch sản xuất
+#H4 a) Lập hệ bất phương trình và biểu diễn miền nghiệm
+#S Gọi **x, y** lần lượt là số sản phẩm loại I, loại II sản xuất trong một ngày (x ∈ ℕ, y ∈ ℕ, tức x ≥ 0, y ≥ 0).
+#S **Thời gian máy A:** 2x + 1y (giờ), không quá 10 giờ ⇒ **2x + y ≤ 10**.
+#S **Thời gian máy B:** 1x + 2y (giờ), không quá 8 giờ ⇒ **x + 2y ≤ 8**.
+#S Vậy hệ bất phương trình là:
+#M **2x + y ≤ 10;   x + 2y ≤ 8;   x ≥ 0;   y ≥ 0**
+#S **Biểu diễn miền nghiệm:** Vẽ các đường thẳng d₁: 2x + y = 10 (qua (5; 0) và (0; 10)); d₂: x + 2y = 8 (qua (8; 0) và (0; 4)); cùng các trục tọa độ.
+#S Thay O(0; 0) vào cả hai bất phương trình đều được 0 ≤ 10 và 0 ≤ 8 (đúng) ⇒ miền nghiệm là phần **chứa O**, nằm dưới cả hai đường thẳng và trong góc phần tư thứ nhất; các bất phương trình đều có dấu **≤** nên **kể cả biên**.
+#S Miền nghiệm là **tứ giác OPMN** với các đỉnh:
+#B **O(0; 0)** - gốc tọa độ.
+#B **P(5; 0)** - giao của d₁ với trục Ox (vì 2x = 10 ⇒ x = 5; kiểm tra với d₂: 5 + 0 = 5 ≤ 8 ✔).
+#B **M(4; 2)** - giao của d₁ và d₂: giải hệ 2x + y = 10, x + 2y = 8. Nhân phương trình thứ hai với 2 được 2x + 4y = 16; trừ phương trình thứ nhất: 3y = 6 ⇒ **y = 2**, suy ra **x = 4**.
+#B **N(0; 4)** - giao của d₂ với trục Oy (vì 2y = 8 ⇒ y = 4; kiểm tra với d₁: 0 + 4 = 4 ≤ 10 ✔).
+#H4 b) Tìm phương án có lợi nhuận lớn nhất
+#S **Hàm lợi nhuận:** F = 3x + 2y (triệu đồng).
+#S Theo định lí về giá trị lớn nhất, nhỏ nhất của biểu thức bậc nhất trên miền đa giác, F đạt giá trị lớn nhất tại một trong các đỉnh. Lập bảng:
+#TABLE
+Đỉnh | O(0; 0) | P(5; 0) | M(4; 2) | N(0; 4)
+Giá trị F = 3x + 2y | 0 | 15 | **16** | 8
+#ENDTABLE
+#S So sánh: F lớn nhất bằng **16** tại đỉnh **M(4; 2)**.
+#S **Kết luận:** Mỗi ngày phân xưởng nên sản xuất **4 sản phẩm loại I** và **2 sản phẩm loại II**, khi đó lợi nhuận lớn nhất là **16 triệu đồng** (kiểm tra lại ràng buộc: máy A: 2·4 + 2 = 10 giờ ✔ vừa đủ; máy B: 4 + 2·2 = 8 giờ ✔ vừa đủ).
+#KEY **Thang điểm:** đặt ẩn và điều kiện (0,25 đ); viết đúng hệ bất phương trình (0,25 đ); xác định đúng miền nghiệm và **4 đỉnh** (0,25 đ); lập bảng giá trị F và kết luận đúng (0,25 đ).
+#WARN **Lỗi mất điểm thường gặp:** (1) Không nêu điều kiện x, y ≥ 0; (2) Chỉ tìm được 2-3 đỉnh rồi kết luận - **phải tìm đủ tất cả các đỉnh** của miền đa giác; (3) Kết luận chỉ ghi “max F = 16” mà **không trả lời câu hỏi thực tế** (bao nhiêu sản phẩm mỗi loại).
+
+#PAGE
+#H2 4.6. Bảng đối chiếu đề với ma trận
+#P Bảng dưới đây chứng minh đề minh họa **phủ kín 100%** các đơn vị kiến thức và mức độ trong ma trận gốc.
+#BIGTABLE 1|1.9,2.2,1.7,1.0
+Đơn vị kiến thức | Câu hỏi trong đề | Mức độ | Điểm
+1.1. Mệnh đề | Câu 1, Câu 2 (TN) | NB, NB | 0,50
+1.2. Tập hợp | Câu 3 (TN); Câu 1a, 1b (ĐS); Câu 1 (TLN) | NB, NB, TH, TH | 1,25
+1.3. Phép toán trên tập hợp | Câu 4 (TN); Câu 1c, 1d (ĐS); Câu 2 (TLN); Câu 1 (TL) | NB, TH, VD, VD, TH | 1,25 + 1,00
+2.1. Bất phương trình bậc nhất hai ẩn | Câu 5 (TN); Câu 2a, 2b, 2c, 2d (ĐS) | NB, NB, TH, TH, VD | 1,25
+2.2. Hệ bất phương trình bậc nhất hai ẩn | Câu 6 (TN); Câu 3 (TL) | NB, VDC | 0,25 + 1,00
+3.1. Giá trị lượng giác của góc 0° - 180° | Câu 7, Câu 8 (TN); Câu 3 (TLN) | NB, TH, VD | 1,00
+3.2. Hệ thức lượng trong tam giác | Câu 9, Câu 10 (TN); Câu 4 (TLN); Câu 2 (TL) | NB, TH, TH, VD | 1,00 + 1,00
+4.1. Các khái niệm mở đầu về vectơ | Câu 11, Câu 12 (TN) | NB, TH | 0,50
+**TỔNG** | **12 TN + 8 ý ĐS + 4 TLN + 3 TL** | **11 NB + 10 TH + 5 VD + 1 VDC** | **10,00**
+#ENDBIGTABLE

@@ -1,0 +1,155 @@
+#H1 PHẦN 5. CHIẾN LƯỢC ÔN TẬP VÀ LÀM BÀI
+#H2 5.1. Mười bảy lỗi sai “mất điểm oan” và cách sửa
+#P Bảng dưới đây tổng hợp các lỗi học sinh lớp 10 **hay mắc nhất** trong phạm vi giữa học kì I, sắp theo thứ tự đơn vị kiến thức trong ma trận.
+#BIGTABLE 1|1.05,2.1,2.1
+Đơn vị | Lỗi thường gặp | Cách sửa
+1.1. Mệnh đề | Coi câu hỏi, câu cảm thán, câu cầu khiến là mệnh đề. | Chỉ câu **khẳng định** xác định được đúng/sai mới là mệnh đề.
+1.1. Mệnh đề | Phủ định “A > B” thành “A < B”. | Phủ định của **>** là **≤**; của **<** là **≥** (ngặt ↔ không ngặt).
+1.1. Mệnh đề | Phủ định “∀x, P(x)” thành “∀x, P̅(x)”. | Phải đổi **lượng từ**: ∀ ↔ ∃.
+1.1. Mệnh đề | Nhầm điều kiện cần và điều kiện đủ. | Trong “Nếu P thì Q”: **P là điều kiện đủ**, **Q là điều kiện cần**.
+1.2. Tập hợp | Nhầm ℕ và ℕ*. | **ℕ có số 0**, ℕ* **không có số 0**.
+1.2. Tập hợp | Tưởng {∅} là tập rỗng. | ∅ không có phần tử; {∅} có **một** phần tử là ∅.
+1.2. Tập hợp | Tính số tập con sai (quên ∅ hoặc quên chính A). | Dùng **2ⁿ**, tính cả ∅ và A.
+1.2. Tập hợp | Sai đầu mút khi viết khoảng, đoạn. | Vẽ trục số, kiểm tra **từng** đầu mút riêng rẽ.
+1.3. Phép toán tập hợp | Nhầm ∩ và ∪; hiểu “hoặc” theo nghĩa loại trừ. | ∩ = “**và**” (phần chung); ∪ = “**hoặc**” (gồm cả phần chung).
+1.3. Phép toán tập hợp | Bài toán thực tế: quên trừ phần giao. | Luôn dùng **n(A ∪ B) = n(A) + n(B) − n(A ∩ B)**.
+2.1. Bất phương trình | Nhận nhầm bất phương trình bậc hai là bậc nhất. | Kiểm tra: **không có x², y², xy**.
+2.1. Bất phương trình | Kết luận miền nghiệm thiếu “kể cả bờ”. | Dấu **≤, ≥** ⇒ lấy bờ; **<, >** ⇒ không lấy bờ.
+2.2. Hệ bất phương trình | Chỉ tìm 2-3 đỉnh rồi kết luận. | Tìm **tất cả** giao điểm của các cặp đường thẳng nằm trên biên.
+2.2. Hệ bất phương trình | Kết luận chỉ có “max F” mà không trả lời thực tế. | Ghi rõ **số lượng từng loại** và **giá trị tiền**.
+3.1. Giá trị lượng giác | Quên xét dấu khi biết một giá trị lượng giác. | Góc tù: **sin > 0**, **cos < 0**, tan < 0, cot < 0.
+3.1. Giá trị lượng giác | Nhầm công thức góc bù. | **sin(180° − α) = sin α** nhưng **cos(180° − α) = −cos α**.
+3.2. Hệ thức lượng | Gắn nhãn cạnh sai (không đối diện đúng góc). | a = BC đối diện A; b = CA đối diện B; c = AB đối diện C.
+3.2. Hệ thức lượng | Quên hệ số 2 trong định lí sin. | **a / sin A = 2R** (không phải R).
+4.1. Vectơ | Nhầm **AB** với **BA**; nhầm cùng phương với cùng hướng. | Vectơ có **hướng**: **AB** ≠ **BA** (ngược hướng).
+4.1. Vectơ | Cho rằng **0** chỉ cùng phương với chính nó. | **0 cùng phương, cùng hướng với mọi vectơ**.
+#ENDBIGTABLE
+
+#H2 5.2. Phân bổ 90 phút trong phòng thi
+#TABLE
+Khoảng thời gian | Công việc | Lưu ý
+0 - 5 phút | Đọc lướt toàn đề, đánh dấu câu dễ | Không sa đà vào câu khó
+5 - 25 phút | Phần I: 12 câu trắc nghiệm (khoảng 1,5 phút/câu) | Làm chắc, tô đáp án ngay
+25 - 40 phút | Phần II: 2 câu Đúng - Sai (8 ý) | Thay số kiểm tra từng ý
+40 - 50 phút | Phần III: 4 câu trả lời ngắn | Chỉ ghi kết quả, không trình bày
+50 - 82 phút | Phần IV: 3 câu tự luận | Câu 1 → Câu 2 → Câu 3 (VDC làm sau)
+82 - 90 phút | Rà soát, kiểm tra lại đầu mút và đơn vị | Ưu tiên kiểm tra phiếu trả lời
+#ENDTABLE
+#WARN **Nguyên tắc vàng:** *Câu dễ làm trước - không bỏ trống câu nào.* Phần trắc nghiệm **không trừ điểm câu sai**, nên nếu hết giờ mà còn câu chưa làm, hãy **chọn ngẫu nhiên** một phương án (xác suất đúng 25% vẫn tốt hơn 0%).
+
+#H2 5.3. Kế hoạch ôn tập 7 ngày (mỗi ngày 60 - 90 phút)
+#TABLE
+Ngày | Nội dung trọng tâm | Việc cần làm cụ thể
+Ngày 1 | Mệnh đề (1.1) | Học mục 2.1; làm lại Ví dụ 1, 2, 3; tự lấy 5 ví dụ mệnh đề và 5 câu **không** phải mệnh đề.
+Ngày 2 | Tập hợp, khoảng - đoạn (1.2) | Học mục 2.2.1, 2.2.2; viết 10 tập hợp bằng hai cách; vẽ 5 khoảng/đoạn trên trục số.
+Ngày 3 | Phép toán tập hợp (1.3) | Học mục 2.2.3, 2.2.4; làm Ví dụ 4, 5; giải lại **Câu 1 tự luận** và **Câu 2 trả lời ngắn**.
+Ngày 4 | Bất phương trình bậc nhất hai ẩn (2.1) | Học mục 2.3; làm Ví dụ 6, 7; tự biểu diễn 3 miền nghiệm; giải lại **Câu 2 Đúng - Sai**.
+Ngày 5 | Hệ bất phương trình và bài toán tối ưu (2.2) | Học mục 2.4; làm Ví dụ 8, 9 **hai lần**; giải lại **Câu 3 tự luận** không nhìn đáp án.
+Ngày 6 | Giá trị lượng giác và hệ thức lượng (3.1, 3.2) | Học mục 2.5, 2.6; **học thuộc bảng giá trị đặc biệt**; làm Ví dụ 10 - 13; giải lại **Câu 2 tự luận**.
+Ngày 7 | Vectơ (4.1) + tổng ôn | Học mục 2.7; làm lại **toàn bộ đề** trong 90 phút, tự chấm theo thang điểm ở Phần 4.
+#ENDTABLE
+#NOTE **Nguyên tắc ôn tập hiệu quả:** (1) **Học đến đâu chắc đến đó** - mỗi đơn vị kiến thức phải làm được ít nhất 5 bài tương tự; (2) **Ghi sổ tay lỗi sai** - mỗi lần làm sai, ghi lại nguyên nhân (sai kiến thức hay sai cẩu thả); (3) **Ôn lại sau 2 ngày** theo đường cong trí nhớ; (4) Không học lý thuyết suông - **luôn kèm bài tập**.
+
+#H2 5.4. Checklist tự đánh giá trước ngày thi
+#TABLE
+Nội dung cần kiểm tra | Đã làm
+Phân biệt được mệnh đề và câu **không** phải mệnh đề | ☐
+Lập thành thạo mệnh đề phủ định (kể cả mệnh đề ∀, ∃) | ☐
+Phát biểu được điều kiện cần, điều kiện đủ, điều kiện cần và đủ | ☐
+Viết được tập hợp bằng liệt kê và bằng tính chất đặc trưng | ☐
+Tính đúng số tập con của một tập có n phần tử | ☐
+Chuyển đổi thành thạo giữa kí hiệu khoảng - đoạn và bất đẳng thức | ☐
+Tìm đúng giao, hợp, hiệu, phần bù (kiểm tra từng đầu mút) | ☐
+Giải được bài toán thực tế bằng công thức n(A ∪ B) | ☐
+Nhận biết bất phương trình và hệ bất phương trình bậc nhất hai ẩn | ☐
+Biểu diễn thành thạo miền nghiệm (kể cả “kể bờ / không kể bờ”) | ☐
+Tìm đủ các đỉnh của miền đa giác và giải bài toán tối ưu | ☐
+Thuộc bảng giá trị lượng giác của các góc đặc biệt | ☐
+Tính được giá trị lượng giác còn lại khi biết một giá trị | ☐
+Thuộc và áp dụng đúng định lí côsin, định lí sin, công thức diện tích | ☐
+Giải được bài toán đo khoảng cách, đo chiều cao | ☐
+Phân biệt cùng phương - cùng hướng - bằng nhau - đối nhau của vectơ | ☐
+Trình bày bài tự luận có đặt ẩn, điều kiện và **kết luận đúng câu hỏi** | ☐
+#ENDTABLE
+
+#PAGE
+#H1 PHỤ LỤC A. CÔNG THỨC CẦN NHỚ (trang “bỏ túi”)
+#H2 A.1. Chương 1 - Mệnh đề và tập hợp
+#TABLE
+Nội dung | Công thức - cách dùng
+Phủ định mệnh đề | “A > B” → “A ≤ B”;  “A < B” → “A ≥ B”;  “A = B” → “A ≠ B”
+Phủ định ∀, ∃ | ∀x ∈ X, P(x) → ∃x ∈ X, P̅(x)  và ngược lại
+Mệnh đề kéo theo | P ⇒ Q **sai** chỉ khi P đúng, Q sai
+Cần - đủ | P ⇒ Q: P là điều kiện **đủ**, Q là điều kiện **cần**
+Số tập con | Tập có n phần tử có **2ⁿ** tập con
+Số phần tử hợp | **n(A ∪ B) = n(A) + n(B) − n(A ∩ B)**
+Giao - Hợp - Hiệu | A ∩ B = {x ǀ x ∈ A **và** x ∈ B};  A ∪ B = {x ǀ x ∈ A **hoặc** x ∈ B};  A ∖ B = {x ǀ x ∈ A **và** x ∉ B}
+#ENDTABLE
+#H2 A.2. Chương 2 - Bất phương trình bậc nhất hai ẩn
+#TABLE
+Nội dung | Công thức - cách dùng
+Dạng tổng quát | **ax + by ≤ c** (hoặc ≥, <, >) với a, b không đồng thời bằng 0
+Miền nghiệm | Là một **nửa mặt phẳng**; bờ là đường thẳng ax + by = c
+Quy tắc 3 bước | Vẽ bờ → thử điểm O(0;0) → kết luận nửa mặt phẳng + **kể bờ hay không**
+Dấu và bờ | **≤, ≥**: lấy cả bờ;  **<, >**: không lấy bờ
+Miền nghiệm của hệ | **Giao** các miền nghiệm; thường là một **đa giác**
+Bài toán tối ưu | F = ax + by đạt max, min tại một **đỉnh** của đa giác
+#ENDTABLE
+#H2 A.3. Chương 3 - Hệ thức lượng trong tam giác
+#TABLE
+Nội dung | Công thức
+Định lí côsin | **a² = b² + c² − 2bc·cos A**
+Hệ quả côsin | **cos A = (b² + c² − a²) / (2bc)**
+Định lí sin | **a / sin A = b / sin B = c / sin C = 2R**
+Diện tích (1) | **S = (1/2)·a·h_a**
+Diện tích (2) | **S = (1/2)·a·b·sin C = (1/2)·b·c·sin A = (1/2)·c·a·sin B**
+Diện tích (3) | **S = a·b·c / (4R)**;   **S = p·r** với p = (a + b + c)/2
+Diện tích (4) - Heron | **S = √(p(p − a)(p − b)(p − c))**
+Trung tuyến | **m_a² = (b² + c²)/2 − a²/4**
+Góc bù | sin(180° − α) = sin α;  cos(180° − α) = −cos α;  tan(180° − α) = −tan α
+Hệ thức cơ bản | sin²α + cos²α = 1;  tan α = sin α / cos α;  1 + tan²α = 1/cos²α
+#ENDTABLE
+#H2 A.4. Chương 4 - Các khái niệm mở đầu về vectơ
+#TABLE
+Khái niệm | Nội dung cần nhớ
+Vectơ | Đoạn thẳng có **hướng**; kí hiệu **AB** (A: điểm đầu, B: điểm cuối)
+Độ dài | ǀ**AB**ǀ = AB (độ dài đoạn thẳng, **luôn không âm**)
+Giá | Đường thẳng đi qua điểm đầu và điểm cuối
+Cùng phương | Hai vectơ có **giá song song hoặc trùng nhau**
+Cùng hướng | Cùng phương và **cùng chiều**
+Bằng nhau | **Cùng hướng** và **cùng độ dài**
+Đối nhau | **Ngược hướng** và **cùng độ dài**
+Vectơ-không | **0**: điểm đầu trùng điểm cuối; ǀ**0**ǀ = 0; cùng phương, cùng hướng với **mọi** vectơ
+Số vectơ từ n điểm | **n(n − 1)** vectơ khác **0**
+#ENDTABLE
+
+#PAGE
+#H1 PHỤ LỤC B. MƯỜI CÂU TỰ LUYỆN NHANH (có đáp án)
+#P Làm nhanh 10 câu dưới đây trong 20 phút để kiểm tra mức độ sẵn sàng. Đáp án in ngay sau mỗi câu - hãy che lại khi làm.
+#Q **Câu 1.** Lập mệnh đề phủ định của mệnh đề: “∃n ∈ ℕ, n² + 1 chia hết cho 4”.
+#S **Đáp án:** “∀n ∈ ℕ, n² + 1 **không** chia hết cho 4”.
+#Q **Câu 2.** Cho A = {x ∈ ℤ | −2 ≤ x < 4}. Liệt kê các phần tử của A và tính số tập con của A.
+#S **Đáp án:** A = {−2; −1; 0; 1; 2; 3}, có 6 phần tử ⇒ số tập con là 2⁶ = **64**.
+#Q **Câu 3.** Cho A = [−5; 2) và B = (0; 6]. Tìm A ∩ B, A ∪ B, A ∖ B và C_ℝ A.
+#S **Đáp án:** A ∩ B = **(0; 2)**;  A ∪ B = **[−5; 6]**;  A ∖ B = **[−5; 0]**;  C_ℝ A = **(−∞; −5) ∪ [2; +∞)**.
+#Q **Câu 4.** Lớp 10C có 36 học sinh, trong đó 20 học sinh thích bóng đá, 15 học sinh thích bóng rổ, 8 học sinh thích cả hai. Tính số học sinh thích ít nhất một môn và số học sinh không thích môn nào.
+#S **Đáp án:** n(A ∪ B) = 20 + 15 − 8 = **27**;  số không thích môn nào = 36 − 27 = **9**.
+#Q **Câu 5.** Trong các điểm A(2; 0), B(1; 1), C(0; 3), điểm nào thuộc miền nghiệm của bất phương trình 3x − 2y ≥ 6?
+#S **Đáp án:** A: 3·2 − 0 = 6 ≥ 6 ✔ (thuộc, vì có dấu ≥ nên **lấy cả bờ**). B: 3 − 2 = 1 ≥ 6 ✘. C: 0 − 6 = −6 ≥ 6 ✘. Vậy chỉ có **điểm A**.
+#Q **Câu 6.** Cho góc α với 90° < α < 180° và cos α = −4/5. Tính sin α, tan α, cot α.
+#S **Đáp án:** sin²α = 1 − 16/25 = 9/25; góc tù nên **sin α = 3/5**;  **tan α = −3/4**;  **cot α = −4/3**.
+#Q **Câu 7.** Cho tam giác ABC có a = 5, b = 6, c = 7. Tính cos A và diện tích tam giác.
+#S **Đáp án:** cos A = (b² + c² − a²)/(2bc) = (36 + 49 − 25)/(2·6·7) = 60/84 = **5/7**.
+#S p = (5 + 6 + 7)/2 = 9; theo Heron: S = √(9·4·3·2) = √216 = **6√6**.
+#Q **Câu 8.** Cho hình bình hành ABCD. Trong các khẳng định sau, khẳng định nào đúng: (i) **AB** = **CD**; (ii) **AB** = **DC**; (iii) **AD** = **CB**?
+#S **Đáp án:** Chỉ **(ii) đúng**. (i) sai vì ngược hướng; (iii) sai vì **AD** và **CB** ngược hướng (đúng phải là **AD** = **BC**).
+#Q **Câu 9.** Cho góc α với 0° < α < 90° và tan α = 3. Tính P = (sin α + cos α)/(sin α − cos α).
+#S **Đáp án:** Chia cả tử và mẫu cho cos α: P = (tan α + 1)/(tan α − 1) = (3 + 1)/(3 − 1) = **2**.
+#Q **Câu 10.** Cho tam giác ABC có AB = 5, AC = 8 và góc A = 150°. Tính diện tích tam giác ABC.
+#S **Đáp án:** S = (1/2)·5·8·sin 150° = 20·(1/2) = **10**.
+
+#SP 10
+#LINE
+#H4 Ghi chú cuối tài liệu
+#P Tài liệu được biên soạn **bám sát cấu trúc, số câu, thang điểm và yêu cầu cần đạt** trong *Ma trận và bảng đặc tả đề kiểm tra giữa kì I môn Toán 10, năm học 2026 - 2027* của Tổ Toán - Tin, Trường THPT Hà Huy Tập. Đề kiểm tra ở Phần 3 là **đề minh họa** được xây dựng đúng theo ma trận (tệp gốc không kèm nội dung câu hỏi), toàn bộ 21 câu / 27 ý đều có đáp án và lời giải chi tiết ở Phần 4.
+#PC ~~Chúc các em ôn tập hiệu quả và đạt kết quả cao trong kì kiểm tra giữa học kì I!~~

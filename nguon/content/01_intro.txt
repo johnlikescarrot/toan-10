@@ -1,0 +1,125 @@
+#SP 90
+#PC **TRƯỜNG THPT HÀ HUY TẬP**
+#PC **TỔ TOÁN - TIN**
+#SP 14
+#PC ─────────────── ✦ ───────────────
+#SP 46
+#PC @@ĐỀ CƯƠNG ÔN TẬP@@
+#SP 10
+#PC @@GIỮA HỌC KÌ I@@
+#SP 12
+#PC **MÔN: TOÁN - LỚP 10**
+#SP 16
+#PC **NĂM HỌC 2026 - 2027**
+#SP 40
+#PC ─────────────── ✦ ───────────────
+#SP 40
+#PC Bộ sách: **Kết nối tri thức với cuộc sống**
+#SP 8
+#PC Phạm vi: Chương 1 - Chương 4 (đến Bài 7. Các khái niệm mở đầu)
+#SP 34
+#NOTE **NỘI DUNG TÀI LIỆU:** Tóm tắt lí thuyết trọng tâm theo từng đơn vị kiến thức · Phân tích ma trận và bảng đặc tả đề kiểm tra · **Đề kiểm tra minh họa đầy đủ 12 câu trắc nghiệm + 2 câu Đúng/Sai (8 ý) + 4 câu trả lời ngắn + 3 câu tự luận** · **Đáp án và lời giải chi tiết cho 100% câu hỏi** · Hệ thống lỗi thường gặp và kế hoạch ôn tập.
+#SP 60
+#PC ~~Biên soạn bám sát MA TRẬN và BẢNG ĐẶC TẢ đề kiểm tra giữa kì I của Tổ Toán - Tin~~
+#SP 6
+#PC ~~Thời gian làm bài: 90 phút - Thang điểm: 10~~
+
+#COVER
+
+#H1 MỤC LỤC
+#TOC
+#PAGE
+
+#H1 PHẦN 1. THÔNG TIN KÌ THI VÀ MA TRẬN ĐỀ
+#NOTE **CÁCH DÙNG TÀI LIỆU:** Tài liệu được xây dựng **trực tiếp từ hai bảng** trong tệp *MA TRẬN TOÁN 10 - GIỮA KÌ I* của Tổ Toán - Tin: **bảng ma trận** (phân bố số câu, số điểm theo nội dung và mức độ nhận thức) và **bảng đặc tả** (mô tả yêu cầu cần đạt của từng câu, kèm mã câu). Toàn bộ cấu trúc, số câu, thang điểm và mã câu trong tài liệu **trùng khớp với ma trận gốc**.
+#P Vì tệp gốc là **ma trận - đặc tả** (chưa chứa nội dung câu hỏi), tài liệu biên soạn **một đề kiểm tra minh họa hoàn chỉnh** theo đúng ma trận đó, kèm **đáp án và lời giải chi tiết cho từng câu, từng ý**, giúp học sinh ôn trọn vẹn phạm vi thi. Nếu thầy cô ra đề khác nội dung, cấu trúc và mức độ vẫn hoàn toàn tương ứng.
+#SP 2
+#H2 1.1. Thông tin chung về bài kiểm tra
+#TABLE
+Nội dung | Thông tin
+Đơn vị tổ chức | Trường THPT Hà Huy Tập - Tổ Toán - Tin
+Môn học | Toán, Lớp 10 (Chương trình GDPT 2018)
+Bộ sách | Kết nối tri thức với cuộc sống
+Bài kiểm tra | Giữa học kì I - Năm học 2026 - 2027
+Thời gian làm bài | 90 phút (không kể thời gian phát đề)
+Hình thức | Trắc nghiệm khách quan kết hợp tự luận
+Thang điểm | 10 điểm
+#ENDTABLE
+
+#H2 1.2. Cấu trúc đề và cách tính điểm
+#TABLE
+Phần | Số câu | Số ý tính điểm | Điểm mỗi ý | Tổng điểm
+I. Trắc nghiệm nhiều phương án lựa chọn | 12 câu | 12 | 0,25 | 3,0
+II. Trắc nghiệm Đúng - Sai | 2 câu | 8 ý | Theo số ý đúng | 2,0
+III. Trắc nghiệm trả lời ngắn | 4 câu | 4 | 0,50 | 2,0
+IV. Tự luận | 3 câu | 3 | 1,00 | 3,0
+**TỔNG** | **21 câu** | **27 ý** | - | **10,0**
+#ENDTABLE
+
+#H4 Cách tính điểm phần Trắc nghiệm Đúng - Sai (theo đúng quy định trong tệp gốc)
+#P Mỗi câu Đúng - Sai gồm **4 ý (a, b, c, d)**. Điểm của câu được tính theo **số ý đúng**, không chia đều:
+#TABLE
+Số ý đúng trong câu | 1 ý | 2 ý | 3 ý | 4 ý | 0 ý
+Điểm được tính | 0,10 | 0,25 | 0,50 | 1,00 | 0,00
+#ENDTABLE
+#WARN **Lưu ý chiến lược:** Vì 3 ý đúng chỉ được 0,5 điểm nhưng 4 ý đúng được 1,0 điểm, phần Đúng - Sai **phân hóa rất mạnh**. Học sinh cần đọc kĩ từng ý, đặc biệt là các ý liên quan đến **điểm đầu mút của khoảng - đoạn** và **bờ của miền nghiệm** - đây là hai “bẫy” phổ biến nhất.
+
+#H2 1.3. Ma trận phân bố câu hỏi theo đơn vị kiến thức
+#P Bảng dưới đây lược từ ma trận gốc, **giữ nguyên số câu, số điểm và mã câu**; cột “Mã câu” do bảng đặc tả quy định.
+#BIGTABLE 2|2.3,0.75,0.8,0.75,0.8,1.9,0.9
+Đơn vị kiến thức | Nhận biết | Thông hiểu | Vận dụng | Vận dụng cao | Mã câu | Điểm
+~**Chương 1. Mệnh đề và tập hợp** |  |  |  |  |  | 
+1.1. Mệnh đề | 2 | 0 | 0 | 0 | Câu 1, 2 (TN) | 0,50
+1.2. Tập hợp | 2 | 2 | 0 | 0 | Câu 3 (TN); Câu 1a, 1b (ĐS); Câu 1 (TLN) | 1,25
+1.3. Các phép toán trên tập hợp | 1 | 2 | 2 | 0 | Câu 4 (TN); Câu 1c, 1d (ĐS); Câu 2 (TLN); Câu 1 (TL) | 1,25 + 1,00
+~**Chương 2. Bất phương trình và hệ bất phương trình bậc nhất hai ẩn** |  |  |  |  |  | 
+2.1. Bất phương trình bậc nhất hai ẩn | 2 | 2 | 1 | 0 | Câu 5 (TN); Câu 2a, 2b, 2c, 2d (ĐS) | 1,25
+2.2. Hệ bất phương trình bậc nhất hai ẩn | 1 | 0 | 0 | 1 | Câu 6 (TN); Câu 3 (TL) | 0,25 + 1,00
+~**Chương 3. Hệ thức lượng trong tam giác** |  |  |  |  |  | 
+3.1. Giá trị lượng giác của một góc từ 0° đến 180° | 1 | 1 | 1 | 0 | Câu 7, 8 (TN); Câu 3 (TLN) | 1,00
+3.2. Hệ thức lượng trong tam giác | 1 | 2 | 1 | 0 | Câu 9, 10 (TN); Câu 4 (TLN); Câu 2 (TL) | 1,00 + 1,00
+~**Chương 4. Vectơ** |  |  |  |  |  | 
+4.1. Các khái niệm mở đầu | 1 | 1 | 0 | 0 | Câu 11, 12 (TN) | 0,50
+**TỔNG** | **11** | **10** | **5** | **1** | **24 ý TN + 3 câu TL** | **10,00**
+#ENDBIGTABLE
+#PC ~~Ghi chú: cột “Nhận biết - Thông hiểu - Vận dụng - Vận dụng cao” đếm theo ý/câu; tổng 24 ý trắc nghiệm (12 TN + 8 ý ĐS + 4 TLN) ứng với 7,0 điểm và 3 câu tự luận ứng với 3,0 điểm.~~
+
+#H2 1.4. Bảng đặc tả - Yêu cầu cần đạt của từng câu
+#BIGTABLE 1|1.5,0.75,4.4,0.7
+Đơn vị kiến thức | Mã câu | Yêu cầu cần đạt (theo bảng đặc tả gốc) | Mức độ
+1.1. Mệnh đề | Câu 1 | Biết thế nào là một mệnh đề, mệnh đề phủ định, mệnh đề chứa biến. | NB
+1.1. Mệnh đề | Câu 2 | Biết ý nghĩa kí hiệu phổ biến ∀ (với mọi) và kí hiệu tồn tại ∃ (tồn tại). | NB
+1.2. Tập hợp | Câu 3 | Biết cho tập hợp bằng cách liệt kê các phần tử hoặc chỉ ra tính chất đặc trưng của các phần tử. | NB
+1.2. Tập hợp | Câu 1a (ĐS) | Sử dụng đúng các kí hiệu tập hợp, khoảng, đoạn, nửa khoảng. | NB
+1.2. Tập hợp | Câu 1b (ĐS) | Biểu diễn được các khoảng, đoạn trên trục số; lấy được ví dụ về tập hợp, tập con, hai tập hợp bằng nhau. | TH
+1.2. Tập hợp | Câu 1 (TLN) | Tìm số tập con của một tập hợp. | TH
+1.3. Phép toán trên tập hợp | Câu 4 | Biết dùng biểu đồ Ven để biểu diễn giao, hợp của hai tập hợp. | NB
+1.3. Phép toán trên tập hợp | Câu 1c (ĐS) | Thực hiện được phép giao, hợp, phần bù của một tập con. | TH
+1.3. Phép toán trên tập hợp | Câu 1d (ĐS) | Thực hiện được phép giao, hợp, phần bù của một tập con. | VD
+1.3. Phép toán trên tập hợp | Câu 2 (TLN) | Vận dụng các phép toán tập hợp vào bài toán thực tế. | VD
+1.3. Phép toán trên tập hợp | Câu 1 (TL) | Thực hiện được phép giao, hợp, phần bù của một tập con. | TH
+2.1. Bất phương trình bậc nhất hai ẩn | Câu 5 | Nhận biết được bất phương trình bậc nhất hai ẩn. | NB
+2.1. Bất phương trình bậc nhất hai ẩn | Câu 2a (ĐS) | Nhận biết được nghiệm và miền nghiệm của bất phương trình trên mặt phẳng tọa độ. | NB
+2.1. Bất phương trình bậc nhất hai ẩn | Câu 2b, 2c (ĐS) | Mô tả được miền nghiệm của bất phương trình trên mặt phẳng tọa độ. | TH
+2.1. Bất phương trình bậc nhất hai ẩn | Câu 2d (ĐS) | Chuyển được điều kiện của bài toán thực tế về dạng bất phương trình bậc nhất hai ẩn. | VD
+2.2. Hệ bất phương trình bậc nhất hai ẩn | Câu 6 | Nhận biết được hệ bất phương trình bậc nhất hai ẩn; nghiệm và miền nghiệm của hệ. | NB
+2.2. Hệ bất phương trình bậc nhất hai ẩn | Câu 3 (TL) | Mô tả miền nghiệm của hệ trên mặt phẳng tọa độ; tìm giá trị tối ưu của bài toán. | VDC
+3.1. Giá trị lượng giác | Câu 7 | Nhận biết giá trị lượng giác của một góc từ 0° đến 180°; hệ thức giữa các góc phụ nhau, bù nhau. | NB
+3.1. Giá trị lượng giác | Câu 8 | Tính được giá trị lượng giác của một góc khi biết một trong bốn giá trị lượng giác của nó. | TH
+3.1. Giá trị lượng giác | Câu 3 (TLN) | Cho biết một giá trị lượng giác, tính giá trị của một biểu thức. | VD
+3.2. Hệ thức lượng trong tam giác | Câu 9 | Nhận biết định lí côsin, định lí sin, công thức tính diện tích tam giác. | NB
+3.2. Hệ thức lượng trong tam giác | Câu 10 | Sử dụng định lí côsin, định lí sin, công thức diện tích để tính cạnh, góc, diện tích. | TH
+3.2. Hệ thức lượng trong tam giác | Câu 4 (TLN) | Sử dụng công thức diện tích, định lí côsin, định lí sin giải bài toán thực tiễn đơn giản. | TH
+3.2. Hệ thức lượng trong tam giác | Câu 2 (TL) | Giải tam giác và vận dụng vào bài toán thực tiễn (khoảng cách, chiều cao). | VD
+4.1. Các khái niệm mở đầu | Câu 11 | Biết khái niệm vectơ, vectơ-không, độ dài vectơ, hai vectơ cùng phương, cùng hướng, bằng nhau. | NB
+4.1. Các khái niệm mở đầu | Câu 12 | Hiểu khái niệm và đặc điểm của vectơ; chứng minh hai vectơ bằng nhau trong trường hợp đơn giản. | TH
+#ENDBIGTABLE
+
+#H2 1.5. Phân tích: học gì để “trúng” ma trận?
+#P Nhìn vào ma trận có thể thấy ngay **ba tầng ưu tiên** khi ôn tập:
+#B **Tầng 1 - Chắc điểm (5,0 điểm):** toàn bộ câu Nhận biết (12 ý) và phần lớn câu Thông hiểu. Đây là các câu hỏi “học thuộc định nghĩa - áp dụng một bước”. Chỉ cần nắm chắc lí thuyết ở Phần 2 là làm được.
+#B **Tầng 2 - Phân hóa (3,5 điểm):** các câu Vận dụng thuộc *phép toán tập hợp*, *miền nghiệm bất phương trình*, *hệ thức lượng thực tế*. Cần luyện dạng, không chỉ học thuộc.
+#B **Tầng 3 - Điểm tuyệt đối (1,0 điểm):** duy nhất **Câu 3 tự luận** (Vận dụng cao) - bài toán tối ưu trên miền đa giác. Đây là câu duy nhất ở mức VDC trong toàn đề.
+#TEAL **Điểm “ăn chắc” theo ma trận:** Chương 1 (Mệnh đề - Tập hợp) chiếm **4,0 điểm**, Chương 2 chiếm **2,5 điểm**, Chương 3 chiếm **3,0 điểm**, Chương 4 chiếm **0,5 điểm**. Hai chương đầu đã chiếm **65% số điểm** - hãy dành thời gian tương xứng.
+
+#PAGE

@@ -1,0 +1,138 @@
+#PAGE
+#H1 PHẦN 3. ĐỀ KIỂM TRA MINH HỌA THEO ĐÚNG MA TRẬN
+#NOTE **Hướng dẫn:** Đề dưới đây được biên soạn **trùng khớp từng câu với bảng đặc tả**: 12 câu trắc nghiệm (Câu 1 → Câu 12), 2 câu Đúng - Sai (mỗi câu 4 ý a, b, c, d), 4 câu trả lời ngắn (Câu 1 → Câu 4) và 3 câu tự luận (Câu 1 → Câu 3). Học sinh nên **bấm đồng hồ 90 phút** và làm trọn vẹn đề trước khi xem lời giải ở Phần 4.
+#PC **Thời gian làm bài: 90 phút (không kể thời gian phát đề)**
+
+#H2 PHẦN I. TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN LỰA CHỌN (12 câu - 3,0 điểm)
+#SM *Chọn một phương án trả lời đúng nhất trong bốn phương án A, B, C, D.*
+
+#Q **Câu 1.** ~~[NB - 1.1]~~ Trong các câu sau, câu nào **là** một mệnh đề?
+#O **A.** Hôm nay trời có mưa không?
+#O **B.** Hãy chứng minh định lí Pythagore.
+#O **C.** x + 3 > 5.
+#O **D.** Số 17 là số nguyên tố.
+
+#Q **Câu 2.** ~~[NB - 1.1]~~ Cho mệnh đề P: “∀x ∈ ℝ, x² + 1 > 0”. Mệnh đề phủ định của P là
+#O **A.** ∀x ∈ ℝ, x² + 1 < 0.
+#O **B.** ∃x ∈ ℝ, x² + 1 ≤ 0.
+#O **C.** ∃x ∈ ℝ, x² + 1 > 0.
+#O **D.** ∀x ∈ ℝ, x² + 1 ≤ 0.
+
+#Q **Câu 3.** ~~[NB - 1.2]~~ Tập hợp A = {x ∈ ℕ* | x ≤ 4} được viết dưới dạng liệt kê các phần tử là
+#O **A.** A = {0; 1; 2; 3; 4}.
+#O **B.** A = {0; 1; 2; 3}.
+#O **C.** A = {1; 2; 3; 4}.
+#O **D.** A = {1; 2; 3; 4; 5}.
+
+#Q **Câu 4.** ~~[NB - 1.3]~~ Cho hai tập hợp A, B được biểu diễn bởi hai hình tròn trong biểu đồ Ven (hai hình tròn cắt nhau). Phần được **tô đậm** là **phần chung** của hai hình tròn. Phần tô đậm đó biểu diễn tập hợp nào sau đây?
+#O **A.** A ∖ B.
+#O **B.** A ∪ B.
+#O **C.** A ∩ B.
+#O **D.** C_ℝ A.
+
+#Q **Câu 5.** ~~[NB - 2.1]~~ Bất phương trình nào sau đây là **bất phương trình bậc nhất hai ẩn**?
+#O **A.** 2x − 3y ≤ 5.
+#O **B.** x² + y > 1.
+#O **C.** x + 2y² < 3.
+#O **D.** x(y + 1) > 2.
+
+#Q **Câu 6.** ~~[NB - 2.2]~~ Hệ bất phương trình nào sau đây **không phải** là hệ bất phương trình bậc nhất hai ẩn?
+#O **A.** x + y ≤ 1 và 2x − y > 3.
+#O **B.** x ≥ 0 và y ≥ 0.
+#O **C.** x + y ≤ 3 và x ≥ 1.
+#O **D.** x² + y ≤ 4 và x − y ≥ 1.
+
+#Q **Câu 7.** ~~[NB - 3.1]~~ Giá trị của **sin 120°** bằng
+#O **A.** √3/2.
+#O **B.** −√3/2.
+#O **C.** 1/2.
+#O **D.** −1/2.
+
+#Q **Câu 8.** ~~[TH - 3.1]~~ Cho góc α thỏa mãn 0° < α < 90° và cos α = 1/3. Giá trị của **sin α** bằng
+#O **A.** 2√2/3.
+#O **B.** √2/3.
+#O **C.** 2/3.
+#O **D.** 8/9.
+
+#Q **Câu 9.** ~~[NB - 3.2]~~ Cho tam giác ABC có BC = a, CA = b, AB = c và R là bán kính đường tròn ngoại tiếp tam giác. Khẳng định nào sau đây **đúng**?
+#O **A.** a = 2R·cos A.
+#O **B.** a / sin A = R.
+#O **C.** a² = b² + c² + 2bc·cos A.
+#O **D.** a / sin A = 2R.
+
+#Q **Câu 10.** ~~[TH - 3.2]~~ Cho tam giác ABC có BC = 7, AC = 8 và góc C = 60°. Độ dài cạnh AB bằng
+#O **A.** √57.
+#O **B.** 57.
+#O **C.** √113.
+#O **D.** 13.
+
+#Q **Câu 11.** ~~[NB - 4.1]~~ Cho tam giác ABC có ba đỉnh phân biệt. Số các **vectơ khác vectơ-không** có điểm đầu và điểm cuối là các đỉnh của tam giác là
+#O **A.** 3.
+#O **B.** 6.
+#O **C.** 9.
+#O **D.** 12.
+
+#Q **Câu 12.** ~~[TH - 4.1]~~ Cho hình vuông ABCD (các đỉnh ghi theo thứ tự). Khẳng định nào sau đây **đúng**?
+#O **A.** **AB** = **CD**.
+#O **B.** **AB** = **DC**.
+#O **C.** |**AB**| = −|**CD**|.
+#O **D.** **AC** và **BD** là hai vectơ cùng phương.
+
+#H2 PHẦN II. TRẮC NGHIỆM ĐÚNG - SAI (2 câu - 2,0 điểm)
+#SM *Trong mỗi ý a), b), c), d) ở mỗi câu, học sinh chọn đúng hoặc sai. Điểm của câu được tính theo số ý đúng: 1 ý = 0,10; 2 ý = 0,25; 3 ý = 0,50; 4 ý = 1,00 điểm.*
+
+#Q **Câu 1.** ~~[NB-TH-VD - 1.2, 1.3]~~ Cho hai tập hợp **A = {x ∈ ℝ | −1 ≤ x < 3}** và **B = {x ∈ ℝ | 1 < x ≤ 5}**. Xét tính đúng sai của các khẳng định sau:
+#O **a)** A = [−1; 3).
+#O **b)** B ⊂ A.
+#O **c)** A ∩ B = (1; 3).
+#O **d)** A ∪ B = (−1; 5].
+
+#Q **Câu 2.** ~~[NB-TH-VD - 2.1]~~ Cho bất phương trình **2x + y ≤ 4** (1). Xét tính đúng sai của các khẳng định sau:
+#O **a)** Cặp số (1; 1) là một nghiệm của bất phương trình (1).
+#O **b)** Điểm O(0; 0) thuộc miền nghiệm của bất phương trình (1).
+#O **c)** Điểm M(2; 1) thuộc miền nghiệm của bất phương trình (1).
+#O **d)** Miền nghiệm của (1) là nửa mặt phẳng bờ là đường thẳng d: 2x + y = 4, chứa điểm O và **kể cả** bờ d.
+
+#H2 PHẦN III. TRẮC NGHIỆM TRẢ LỜI NGẮN (4 câu - 2,0 điểm)
+#SM *Viết kết quả của mỗi câu vào ô trả lời (chỉ ghi số hoặc biểu thức, không giải thích).*
+
+#Q **Câu 1.** ~~[TH - 1.2]~~ Cho tập hợp A = {1; 2; 3; 4; 5}. Số **tập con** của tập hợp A là bao nhiêu?
+
+#Q **Câu 2.** ~~[VD - 1.3]~~ Lớp 10A có 40 học sinh, trong đó có 25 học sinh thích môn Toán, 20 học sinh thích môn Ngữ văn và 10 học sinh thích cả hai môn. Số học sinh **không thích môn nào** trong hai môn Toán, Ngữ văn là bao nhiêu?
+
+#Q **Câu 3.** ~~[VD - 3.1]~~ Cho góc α thỏa mãn 0° < α < 90° và tan α = 2. Giá trị của biểu thức P = (2sin α + 3cos α)/(sin α − cos α) bằng bao nhiêu?
+
+#Q **Câu 4.** ~~[TH - 3.2]~~ Cho tam giác ABC có AB = 6, AC = 4 và góc A = 30°. Diện tích tam giác ABC bằng bao nhiêu?
+
+#H2 PHẦN IV. TỰ LUẬN (3 câu - 3,0 điểm)
+#SM *Trình bày lời giải đầy đủ.*
+
+#Q **Câu 1 (1,0 điểm).** ~~[TH - 1.3]~~ Cho hai tập hợp **A = [−2; 5]** và **B = (1; 7)**. Tìm **A ∩ B**, **A ∪ B**, **A ∖ B** và **phần bù của B trong ℝ**, biểu diễn kết quả trên trục số.
+
+#Q **Câu 2 (1,0 điểm).** ~~[VD - 3.2]~~ Từ hai vị trí A và B trên bờ biển, cách nhau 100 m, người ta quan sát một con tàu đang neo đậu tại vị trí C trên biển. Biết ∠BAC = 45° và ∠ABC = 70°. Tính khoảng cách từ con tàu đến vị trí A (làm tròn kết quả đến hàng phần mười của mét).
+
+#Q **Câu 3 (1,0 điểm).** ~~[VDC - 2.2]~~ Một phân xưởng sản xuất hai loại sản phẩm I và II. Để sản xuất một sản phẩm loại I cần 2 giờ máy A và 1 giờ máy B; để sản xuất một sản phẩm loại II cần 1 giờ máy A và 2 giờ máy B. Mỗi ngày, máy A hoạt động không quá 10 giờ và máy B hoạt động không quá 8 giờ. Biết mỗi sản phẩm loại I cho lợi nhuận 3 triệu đồng, mỗi sản phẩm loại II cho lợi nhuận 2 triệu đồng.
+#P a) Gọi x, y lần lượt là số sản phẩm loại I và loại II sản xuất trong một ngày. Viết hệ bất phương trình biểu thị các điều kiện của bài toán và biểu diễn miền nghiệm của hệ trên mặt phẳng tọa độ.
+#P b) Hỏi mỗi ngày phân xưởng cần sản xuất bao nhiêu sản phẩm mỗi loại để lợi nhuận thu được là lớn nhất? Tính lợi nhuận lớn nhất đó.
+
+
+#H3 PHIẾU TRẢ LỜI TRẮC NGHIỆM
+#P Học sinh tô/viết đáp án vào bảng dưới đây trước khi đối chiếu với Phần 4.
+#TABLE
+Câu | 1 | 2 | 3 | 4 | 5 | 6
+Đáp án |  |  |  |  |  | 
+Câu | 7 | 8 | 9 | 10 | 11 | 12
+Đáp án |  |  |  |  |  | 
+#ENDTABLE
+#SP 6
+#TABLE
+Câu Đúng - Sai | a | b | c | d
+Câu 1 |  |  |  | 
+Câu 2 |  |  |  | 
+#ENDTABLE
+#SP 6
+#TABLE
+Câu trả lời ngắn | 1 | 2 | 3 | 4
+Kết quả |  |  |  | 
+#ENDTABLE
+

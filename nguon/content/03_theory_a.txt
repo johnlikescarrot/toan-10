@@ -1,0 +1,191 @@
+#H1 PHẦN 2. TÓM TẮT LÍ THUYẾT TRỌNG TÂM
+#P Phần này trình bày lí thuyết **đúng theo thứ tự các đơn vị kiến thức trong ma trận**, kèm bảng hệ thống, phương pháp giải từng dạng và ví dụ mẫu có lời giải. Học sinh nên học theo đúng thứ tự này để khi làm đề không bị “lạ” câu hỏi.
+#NOTE **Quy ước trình bày trong tài liệu:** Các kí hiệu toán học được viết trực tiếp bằng kí tự Unicode (∩, ∪, ⊂, ∈, ∀, ∃, ≤, ≥, √...). **Chữ in đậm** dùng cho **vectơ** (theo đúng quy ước in của sách Kết nối tri thức), cho **từ khóa** cần ghi nhớ và cho **tên khái niệm**.
+
+#H2 2.1. CHƯƠNG 1 - MỆNH ĐỀ (Đơn vị kiến thức 1.1)
+#H3 2.1.1. Mệnh đề. Mệnh đề chứa biến
+#P **Mệnh đề** (mệnh đề logic) là một câu khẳng định **có tính đúng hoặc có tính sai**. Một mệnh đề không thể vừa đúng vừa sai.
+#B Câu khẳng định đúng là **mệnh đề đúng**; câu khẳng định sai là **mệnh đề sai**.
+#B Câu hỏi, câu cảm thán, câu cầu khiến, câu mệnh lệnh **không phải** là mệnh đề.
+#B Câu chứa biến như “x + 3 > 5”, “n chia hết cho 2” **chưa phải** là mệnh đề, vì chưa xác định được tính đúng sai. Khi gán giá trị cụ thể cho biến, ta được một mệnh đề. Loại câu này gọi là **mệnh đề chứa biến**, kí hiệu P(x), Q(x, y)...
+#P **Kí hiệu:** mệnh đề thường được đặt tên bằng chữ in hoa P, Q, R...; “P đúng” kí hiệu là P = 1 (hoặc P đúng), “P sai” kí hiệu P = 0.
+#TEAL **MẸO NHẬN BIẾT NHANH:** Đặt câu hỏi *“Câu này khẳng định điều gì, và điều đó đúng hay sai?”*. Nếu trả lời được “đúng” hoặc “sai” thì đó là mệnh đề; nếu câu có dấu hỏi, dấu chấm than hoặc chứa biến tự do chưa gán giá trị thì **không phải** mệnh đề.
+
+#H3 2.1.2. Mệnh đề phủ định
+#P **Mệnh đề phủ định** của mệnh đề P, kí hiệu là **P̅** (đọc là “không P”), là mệnh đề khẳng định **P không xảy ra**. Mệnh đề P và P̅ có tính đúng sai **trái ngược nhau**: P đúng thì P̅ sai, P sai thì P̅ đúng.
+#M Quy tắc lập mệnh đề phủ định
+#M **P: “A = B”**  →  **P̅: “A ≠ B”**
+#M **P: “A > B”**  →  **P̅: “A ≤ B”**   (chú ý: phủ định của > là ≤, không phải <)
+#M **P: “A < B”**  →  **P̅: “A ≥ B”**
+#M **P: “A chia hết cho B”**  →  **P̅: “A không chia hết cho B”**
+#M **P: “∀x ∈ X, P(x)”**  →  **P̅: “∃x ∈ X, P̅(x)”**
+#M **P: “∃x ∈ X, P(x)”**  →  **P̅: “∀x ∈ X, P̅(x)”**
+#WARN **Sai lầm thường gặp:** Phủ định “x > 2” thành “x < 2” (sai - phải là “x ≤ 2”); phủ định “tất cả” thành “tất cả không” (sai - phải là “có ít nhất một... không”); quên phủ định **cả phần kết luận** khi phủ định mệnh đề chứa ∀, ∃.
+
+#H3 2.1.3. Mệnh đề kéo theo, mệnh đề đảo, mệnh đề tương đương
+#P **Mệnh đề kéo theo** “Nếu P thì Q”, kí hiệu **P ⇒ Q**. Mệnh đề P ⇒ Q chỉ **sai khi P đúng và Q sai**; trong mọi trường hợp còn lại nó đều đúng.
+#TABLE
+P | Q | P ⇒ Q
+1 (đúng) | 1 (đúng) | **Đúng**
+1 (đúng) | 0 (sai) | **Sai**
+0 (sai) | 1 (đúng) | **Đúng**
+0 (sai) | 0 (sai) | **Đúng**
+#ENDTABLE
+#B Từ mệnh đề **P ⇒ Q** ta lập được **mệnh đề đảo** là **Q ⇒ P** (mệnh đề đảo không nhất thiết cùng tính đúng sai với mệnh đề ban đầu).
+#B Nếu cả **P ⇒ Q** và **Q ⇒ P** đều đúng thì ta nói **P và Q tương đương**, kí hiệu **P ⇔ Q**, đọc là “P khi và chỉ khi Q”, “P nếu và chỉ nếu Q”, “P tương đương Q”.
+#B Với **P ⇒ Q** đúng, ta nói: **P là điều kiện đủ để có Q**; **Q là điều kiện cần để có P**.
+#B Với **P ⇔ Q** đúng, ta nói: **P là điều kiện cần và đủ để có Q**.
+#NOTE **Cách nhớ “cần - đủ”:** *“Điều kiện đủ đứng trước, điều kiện cần đứng sau”* trong câu “Nếu P thì Q”. Muốn có Q, **chỉ cần** có P là đủ; muốn có P thì **bắt buộc phải** có Q (Q là điều kiện cần).
+
+#H3 2.1.4. Mệnh đề chứa kí hiệu ∀ và ∃  (Câu 2 - Nhận biết)
+#B **∀** đọc là **“với mọi”**, **“với tất cả”** (kí hiệu phổ biến, lượng tử phổ dụng).
+#B **∃** đọc là **“tồn tại”**, **“có ít nhất một”** (kí hiệu tồn tại, lượng tử tồn tại).
+#B Kí hiệu **∃!** đọc là **“tồn tại duy nhất”**.
+#P **Cách phát biểu:** mệnh đề “∀x ∈ X, P(x)” đọc là *“Với mọi x thuộc X, ta có P(x)”*; mệnh đề “∃x ∈ X, P(x)” đọc là *“Tồn tại x thuộc X sao cho P(x)”*.
+#KEY **Ghi nhớ bắt buộc:** Để **chứng minh** “∀x ∈ X, P(x)” **đúng**, phải chứng minh cho **mọi** x; chỉ cần **một** phản ví dụ là mệnh đề **sai**. Ngược lại, để chứng minh “∃x ∈ X, P(x)” **đúng**, chỉ cần **chỉ ra một** giá trị x thỏa mãn.
+
+#H4 Dạng toán 1: Xét tính đúng - sai của mệnh đề
+#B Mệnh đề “∀x ∈ X, P(x)”: **đúng** nếu mọi x ∈ X đều thỏa P(x); **sai** nếu tìm được **một** x₀ ∈ X làm P(x₀) sai (phản ví dụ).
+#B Mệnh đề “∃x ∈ X, P(x)”: **đúng** nếu chỉ ra được **một** x₀ ∈ X thỏa P(x₀); **sai** nếu mọi x ∈ X đều không thỏa P(x).
+#P **Ví dụ 1.** Xét tính đúng sai của các mệnh đề sau:
+#P a) P: “∀x ∈ ℝ, x² + 1 > 0”.  b) Q: “∃x ∈ ℤ, 2x + 1 = 4”.  c) R: “∀n ∈ ℕ, n² + n chia hết cho 2”.
+#S **Giải.**
+#S a) Với mọi x ∈ ℝ ta có x² ≥ 0 nên x² + 1 ≥ 1 > 0. Vậy **P đúng**.
+#S b) Giả sử 2x + 1 = 4 thì 2x = 3, suy ra x = 3/2 ∉ ℤ. Vậy không tồn tại số nguyên x thỏa mãn, **Q sai**.
+#S c) Ta có n² + n = n(n + 1) là tích của hai số tự nhiên liên tiếp nên luôn có một thừa số chẵn, do đó chia hết cho 2 với mọi n ∈ ℕ. Vậy **R đúng**.
+
+#H4 Dạng toán 2: Lập mệnh đề phủ định
+#P **Ví dụ 2.** Lập mệnh đề phủ định của các mệnh đề:
+#P a) A: “∀x ∈ ℝ, x² − 2x + 2 > 0”.  b) B: “∃x ∈ ℚ, x² = 3”.  c) C: “Mọi học sinh của lớp 10A đều thích môn Toán”.
+#S **Giải.**
+#S a) Ā: “∃x ∈ ℝ, x² − 2x + 2 ≤ 0”.  (Mệnh đề A đúng vì x² − 2x + 2 = (x − 1)² + 1 > 0, nên Ā sai.)
+#S b) B̅: “∀x ∈ ℚ, x² ≠ 3”.  (B sai vì √3 ∉ ℚ, nên B̅ đúng.)
+#S c) C̅: “Tồn tại (có ít nhất một) học sinh của lớp 10A không thích môn Toán”.
+
+#H4 Dạng toán 3: Phát biểu điều kiện cần, điều kiện đủ
+#P **Ví dụ 3.** Cho định lí: “Nếu tam giác ABC có ba góc bằng nhau thì tam giác ABC đều”. Phát biểu lại bằng “điều kiện cần”, “điều kiện đủ”.
+#S **Giải.** Gọi P: “tam giác ABC có ba góc bằng nhau”, Q: “tam giác ABC đều”.
+#S - **P là điều kiện đủ** để có Q: *“Tam giác ABC có ba góc bằng nhau là điều kiện đủ để tam giác ABC đều.”*
+#S - **Q là điều kiện cần** để có P: *“Tam giác ABC đều là điều kiện cần để tam giác ABC có ba góc bằng nhau.”*
+#S - Định lí đảo cũng đúng, nên có thể phát biểu: *“Tam giác ABC có ba góc bằng nhau là điều kiện cần và đủ để tam giác ABC đều.”*
+
+#PAGE
+#H2 2.2. CHƯƠNG 1 - TẬP HỢP VÀ CÁC PHÉP TOÁN TRÊN TẬP HỢP (Đơn vị 1.2 và 1.3)
+#H3 2.2.1. Tập hợp và cách xác định tập hợp
+#P **Tập hợp** là một nhóm các đối tượng nào đó; mỗi đối tượng gọi là một **phần tử** của tập hợp.
+#B **a ∈ A**: a là phần tử của A (a thuộc A). **a ∉ A**: a không là phần tử của A.
+#B **Cách 1 - Liệt kê phần tử:** viết tất cả các phần tử trong dấu ngoặc nhọn, ví dụ A = {1; 2; 3; 5}.
+#B **Cách 2 - Chỉ ra tính chất đặc trưng:** A = {x ∈ X | P(x)} (tập hợp các x thuộc X thỏa mãn tính chất P). Ví dụ B = {x ∈ ℕ | x < 5} = {0; 1; 2; 3; 4}; C = {x ∈ ℝ | x² = 4} = {−2; 2}.
+#B **Tập rỗng** (kí hiệu **∅**) là tập hợp **không có phần tử nào**. Chú ý: {∅} **không phải** tập rỗng mà là tập có một phần tử.
+#B **Tập con:** A ⊂ B (A là tập con của B) nếu **mọi** phần tử của A đều thuộc B. Quy ước: **∅ ⊂ A** với mọi tập A, và **A ⊂ A**.
+#B **Hai tập hợp bằng nhau:** A = B ⇔ (A ⊂ B và B ⊂ A), nghĩa là hai tập có **đúng cùng các phần tử**.
+#KEY **Công thức đếm số tập con (dùng cho Câu 1 trả lời ngắn):** Nếu tập A có **n phần tử** (n ≥ 0) thì A có **2ⁿ tập con**. Trong đó có 1 tập con rỗng, n tập con có 1 phần tử, ... và 1 tập con chính là A.
+
+#H3 2.2.2. Các tập con thường dùng của ℝ
+#TABLE
+Kí hiệu | Tên gọi | Bất đẳng thức | Biểu diễn trên trục số
+(a; b) | Khoảng | a < x < b | hai đầu **hở** (hai dấu ngoặc tròn)
+[a; b] | Đoạn | a ≤ x ≤ b | hai đầu **kín**
+[a; b) | Nửa khoảng | a ≤ x < b | trái kín, phải hở
+(a; b] | Nửa khoảng | a < x ≤ b | trái hở, phải kín
+(−∞; a) | Nửa khoảng | x < a | phải hở
+(−∞; a] | Nửa khoảng | x ≤ a | phải kín
+(a; +∞) | Nửa khoảng | x > a | trái hở
+[a; +∞) | Nửa khoảng | x ≥ a | trái kín
+(−∞; +∞) | Tập số thực ℝ | mọi x | cả trục số
+#ENDTABLE
+#WARN **Cực kì quan trọng - đây là “bẫy” của câu Đúng/Sai:** Kí hiệu **ngoặc tròn “(” “)” ứng với dấu bất đẳng thức ngặt (<, >)** - **không lấy** điểm đầu mút. Kí hiệu **ngoặc vuông “[” “]” ứng với dấu “≤, ≥”** - **có lấy** điểm đầu mút. Khi tìm giao, hợp của các khoảng, đoạn, **phải kiểm tra riêng từng điểm đầu mút**.
+
+#H3 2.2.3. Các phép toán trên tập hợp  (Câu 4, Câu 1a-1d, Câu 1 TL, Câu 2 TLN)
+#TABLE
+Phép toán | Kí hiệu | Định nghĩa | Biểu đồ Ven
+**Giao** | A ∩ B | {x | x ∈ A **và** x ∈ B} | phần **chung** của hai hình
+**Hợp** | A ∪ B | {x | x ∈ A **hoặc** x ∈ B} | toàn bộ **hai** hình
+**Hiệu** | A ∖ B | {x | x ∈ A **và** x ∉ B} | phần của A **bỏ đi** phần chung
+**Phần bù** | C_X A | X ∖ A (với A ⊂ X) | phần của X **ngoài** A
+#ENDTABLE
+#NOTE **Phân biệt “hoặc” trong toán học:** “x ∈ A hoặc x ∈ B” hiểu theo nghĩa **không loại trừ** - x có thể thuộc cả A và B. Đây là điểm khác với “hoặc” trong ngôn ngữ đời thường; nếu hiểu sai sẽ tính sai hợp.
+#B **Tính chất cần nhớ:** A ∩ A = A; A ∪ A = A; A ∩ ∅ = ∅; A ∪ ∅ = A; A ⊂ B ⇔ A ∩ B = A ⇔ A ∪ B = B.
+#B **Công thức số phần tử (dùng cho bài toán thực tế - Câu 2 TLN):** với hai tập hữu hạn A, B bất kì:
+#M **n(A ∪ B) = n(A) + n(B) − n(A ∩ B)**
+#P Từ đó suy ra số phần tử **không thuộc** A và không thuộc B trong tập X là: n(X) − n(A ∪ B).
+
+#H4 Dạng toán 4: Tìm giao, hợp, hiệu của các tập hợp số
+#P **Phương pháp:** (1) Viết mỗi tập về dạng khoảng - đoạn - nửa khoảng; (2) **vẽ các tập lên cùng một trục số**; (3) đọc kết quả, xử lí **riêng từng đầu mút**: đầu mút thuộc kết quả khi nó thuộc **tất cả** các tập đang giao (với phép giao), hoặc thuộc **ít nhất một** tập (với phép hợp).
+#P **Ví dụ 4.** Cho A = [−3; 2), B = (0; 4]. Tìm A ∩ B, A ∪ B, A ∖ B và C_ℝ A.
+#S **Giải.**
+#S - **A ∩ B = (0; 2)**: các x vừa thuộc A vừa thuộc B là 0 < x < 2. Điểm 0 không thuộc A, điểm 2 không thuộc A ⇒ cả hai đầu đều hở.
+#S - **A ∪ B = [−3; 4]**: −3 ∈ A nên −3 thuộc hợp ⇒ **lấy** −3; 4 ∈ B ⇒ **lấy** 4.
+#S - **A ∖ B = [−3; 0]**: lấy phần của A nằm ngoài B, tức x ≤ 0; vì 0 ∉ B nên **0 vẫn thuộc** A ∖ B ⇒ nửa khoảng [−3; 0].
+#S - **C_ℝ A = (−∞; −3) ∪ [2; +∞)**: phần bù lấy các x **không** thuộc A; −3 ∉ A và 2 ∉ A nên cả hai đều thuộc phần bù ⇒ −3 **hở**, 2 **kín**.
+
+#H4 Dạng toán 5: Bài toán thực tế sử dụng phép toán tập hợp
+#P **Phương pháp:** Gọi tên tập hợp cho từng nhóm đối tượng; xác định số phần tử của mỗi tập và của phần giao; dùng công thức **n(A ∪ B) = n(A) + n(B) − n(A ∩ B)**; câu hỏi “không thuộc nhóm nào” thì lấy tổng trừ đi số phần tử của hợp.
+#P **Ví dụ 5.** Lớp 10B có 45 học sinh. Trong đó có 30 học sinh tham gia câu lạc bộ Toán, 22 học sinh tham gia câu lạc bộ Tiếng Anh, 15 học sinh tham gia cả hai câu lạc bộ. Hỏi có bao nhiêu học sinh **không** tham gia câu lạc bộ nào trong hai câu lạc bộ trên?
+#S **Giải.** Gọi A là tập học sinh tham gia CLB Toán, B là tập học sinh tham gia CLB Tiếng Anh. Ta có n(A) = 30, n(B) = 22, n(A ∩ B) = 15.
+#S Số học sinh tham gia **ít nhất một** CLB: n(A ∪ B) = 30 + 22 − 15 = **37**.
+#S Số học sinh không tham gia CLB nào: 45 − 37 = **8** học sinh.
+#WARN **Bẫy thường gặp:** Cộng 30 + 22 = 52 rồi trừ 45 ra 7 - **sai**, vì đã **đếm hai lần** 15 học sinh tham gia cả hai CLB. Luôn trừ đi phần giao trước.
+
+#PAGE
+#H2 2.3. CHƯƠNG 2 - BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN (Đơn vị 2.1)
+#H3 2.3.1. Định nghĩa và nghiệm
+#P **Bất phương trình bậc nhất hai ẩn** x, y là bất phương trình có một trong các dạng:
+#M **ax + by ≤ c,  ax + by ≥ c,  ax + by < c,  ax + by > c**
+#P trong đó a, b, c là các số thực đã cho, **a và b không đồng thời bằng 0**, x và y là các ẩn số.
+#B **Nghiệm** của bất phương trình là **cặp số (x₀; y₀)** sao cho khi thay vào bất phương trình ta được một khẳng định đúng.
+#B **Miền nghiệm** là tập hợp **tất cả** các điểm có tọa độ là nghiệm của bất phương trình; trên mặt phẳng tọa độ, miền nghiệm là một **nửa mặt phẳng** (kể cả hoặc không kể bờ).
+#NOTE **Nhận biết nhanh (Câu 5):** Bất phương trình bậc nhất hai ẩn có đúng **hai ẩn x, y**, mỗi ẩn **bậc nhất** (không có x², y², không có xy, không có 1/x). Ví dụ: 2x − 3y ≤ 5 ✔; x² + y > 1 ✘ (ẩn x bậc hai); x + 2y² < 3 ✘; x(y + 1) > 2 ✘ (có xy).
+
+#H3 2.3.2. Quy tắc biểu diễn miền nghiệm (3 bước)
+#N **Bước 1.** Trên mặt phẳng tọa độ Oxy, vẽ đường thẳng **d: ax + by = c** (đường thẳng này chia mặt phẳng thành hai nửa mặt phẳng).
+#N **Bước 2.** Lấy một điểm **M(x₀; y₀) ∉ d** thường là **gốc O(0; 0)** (nếu c ≠ 0), thay tọa độ vào bất phương trình.
+#N **Bước 3.** Nếu được khẳng định đúng thì **miền nghiệm là nửa mặt phẳng bờ d chứa M**; nếu sai thì **miền nghiệm là nửa mặt phẳng bờ d không chứa M**. Kết luận: **kể cả bờ d** nếu bất phương trình có dấu **≤, ≥**; **không kể bờ d** nếu có dấu **<, >**.
+#KEY **Ba thông tin phải ghi đủ khi kết luận miền nghiệm:** (1) nửa mặt phẳng nào (chứa hay không chứa điểm thử); (2) bờ là đường thẳng nào (phương trình cụ thể); (3) **có kể bờ hay không** (dấu ngặt hay không ngặt). Thiếu ý (3) là mất điểm.
+#P **Ví dụ 6.** Biểu diễn miền nghiệm của bất phương trình **x + 2y < 4**.
+#S **Giải.** Vẽ đường thẳng d: x + 2y = 4, đi qua hai điểm (4; 0) và (0; 2).
+#S Thay tọa độ O(0; 0): 0 + 2·0 = 0 < 4, khẳng định **đúng**.
+#S Vậy miền nghiệm là **nửa mặt phẳng bờ d chứa gốc tọa độ O**, **không kể bờ d** (vì dấu <).
+
+#H4 Dạng toán 6: Chuyển điều kiện thực tế thành bất phương trình bậc nhất hai ẩn
+#P **Phương pháp:** (1) Đặt ẩn và nêu **điều kiện của ẩn** (thường x ≥ 0, y ≥ 0, có thể là số nguyên); (2) dịch từng câu điều kiện thành biểu thức đại số; (3) viết bất phương trình, chú ý đơn vị và dấu (≤, ≥).
+#P **Ví dụ 7.** Một bạn học sinh có 50 000 đồng để mua bút và vở. Mỗi chiếc bút giá 5 000 đồng, mỗi quyển vở giá 8 000 đồng. Gọi x, y lần lượt là số bút và số vở bạn đó mua. Viết bất phương trình bậc nhất hai ẩn biểu thị điều kiện “số tiền phải trả không vượt quá 50 000 đồng”.
+#S **Giải.** Số tiền mua bút là 5 000x (đồng), mua vở là 8 000y (đồng). Điều kiện “không vượt quá” tức **≤**, nên:
+#S **5 000x + 8 000y ≤ 50 000**, hay gọn **5x + 8y ≤ 50**, với x, y ∈ ℕ.
+
+#PAGE
+#H2 2.4. CHƯƠNG 2 - HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN (Đơn vị 2.2)
+#H3 2.4.1. Định nghĩa và miền nghiệm
+#P **Hệ bất phương trình bậc nhất hai ẩn** là một hệ gồm **hai hay nhiều** bất phương trình bậc nhất hai ẩn x, y mà ta phải tìm các nghiệm chung của chúng.
+#B **Nghiệm của hệ** là cặp số (x₀; y₀) **đồng thời là nghiệm của tất cả** các bất phương trình trong hệ.
+#B **Miền nghiệm của hệ** là **giao** các miền nghiệm của các bất phương trình trong hệ. Miền nghiệm thường là một **miền đa giác** (có thể là tam giác, tứ giác, ngũ giác...), kể cả biên hoặc không kể biên tùy dấu bất phương trình.
+#NOTE **Nhận biết (Câu 6):** Hệ bậc nhất hai ẩn **chỉ gồm các bất phương trình bậc nhất hai ẩn**. Chỉ cần **một** bất phương trình có ẩn bậc hai (x², y²) hay chứa xy, 1/x thì **cả hệ không còn** là hệ bất phương trình bậc nhất hai ẩn.
+
+#H3 2.4.2. Quy trình biểu diễn miền nghiệm của hệ
+#N **Bước 1.** Vẽ **tất cả** các đường thẳng ứng với các bất phương trình trong hệ trên cùng một mặt phẳng tọa độ.
+#N **Bước 2.** Xác định miền nghiệm của **từng** bất phương trình (dùng điểm thử).
+#N **Bước 3.** **Giao** các miền nghiệm lại (phần chung), tô đậm phần chung đó. Xác định tọa độ các **đỉnh** của miền đa giác bằng cách giải hệ phương trình tạo bởi các đường thẳng cắt nhau.
+#P **Ví dụ 8.** Biểu diễn miền nghiệm của hệ bất phương trình:
+#M **x ≥ 0,  y ≥ 0,  x + y ≤ 5,  2x + y ≤ 8**
+#S **Giải.** Vẽ các đường thẳng: x = 0 (trục Oy), y = 0 (trục Ox), d₁: x + y = 5, d₂: 2x + y = 8.
+#S Miền nghiệm nằm trong góc phần tư thứ nhất, phía dưới cả hai đường thẳng d₁, d₂ (vì điểm O(0;0) thỏa cả hai bất phương trình, và các bất phương trình đều có dấu ≤ nên **kể cả biên**).
+#S Các đỉnh của miền đa giác: **O(0; 0)**; giao của d₂ với Ox: **A(4; 0)**; giao của d₁ và d₂: giải hệ x + y = 5, 2x + y = 8 được **B(3; 2)**; giao của d₁ với Oy: **C(0; 5)**.
+#S Vậy miền nghiệm là **tứ giác OABC** (kể cả biên) với O(0;0), A(4;0), B(3;2), C(0;5).
+
+#H3 2.4.3. Bài toán tối ưu - Tìm giá trị lớn nhất, nhỏ nhất  (Câu 3 tự luận - Vận dụng cao)
+#P Bài toán: Tìm giá trị lớn nhất (nhỏ nhất) của biểu thức **F = ax + by** trên miền nghiệm của một hệ bất phương trình bậc nhất hai ẩn.
+#KEY **Định lí (cần nhớ để trình bày):** Nếu miền nghiệm của hệ là một **miền đa giác lồi** (kể cả biên) và biểu thức F = ax + by **không đổi** (a, b không đồng thời bằng 0) thì F đạt giá trị **lớn nhất** và **nhỏ nhất** tại một trong các **đỉnh** của miền đa giác đó.
+#H4 Quy trình 4 bước (trình bày đúng chuẩn để “ăn” điểm tự luận)
+#N **Bước 1.** Đặt ẩn và điều kiện (x, y ≥ 0; nếu là số lượng sản phẩm thì x, y ∈ ℕ).
+#N **Bước 2.** Viết hệ bất phương trình biểu thị các điều kiện ràng buộc; viết biểu thức mục tiêu F.
+#N **Bước 3.** Vẽ miền nghiệm (miền đa giác) và **xác định tọa độ tất cả các đỉnh**.
+#N **Bước 4.** Tính giá trị của F tại **từng đỉnh**, so sánh và **kết luận** (nêu rõ giá trị lớn nhất/nhỏ nhất và đạt tại đỉnh nào), rồi **trả lời bài toán thực tế**.
+#P **Ví dụ 9.** Một xưởng may sản xuất hai loại áo A và B. Mỗi áo loại A cần 3 m vải và 1 giờ công; mỗi áo loại B cần 2 m vải và 2 giờ công. Xưởng có 120 m vải và 80 giờ công. Lợi nhuận mỗi áo loại A là 200 nghìn đồng, mỗi áo loại B là 150 nghìn đồng. Hỏi xưởng nên sản xuất bao nhiêu áo mỗi loại để lợi nhuận lớn nhất?
+#S **Giải.** Gọi x, y lần lượt là số áo loại A và loại B cần sản xuất (x, y ∈ ℕ).
+#S **Bước 1 - Ràng buộc:** 3x + 2y ≤ 120 (vải); x + 2y ≤ 80 (giờ công); x ≥ 0; y ≥ 0. **Bước 2 - Mục tiêu:** F = 200x + 150y (nghìn đồng).
+#S **Bước 3 - Miền nghiệm** là tứ giác OABC (kể cả biên) với: **O(0; 0)**; giao của 3x + 2y = 120 với Ox là **A(40; 0)**; giao của hai đường thẳng 3x + 2y = 120 và x + 2y = 80 là **B(20; 30)** (trừ hai phương trình vế theo vế được 2x = 40 ⇒ x = 20, suy ra y = 30); giao của x + 2y = 80 với Oy là **C(0; 40)**.
+#S **Bước 4 - Tính F tại các đỉnh:**
+#S F(O) = 0;  F(A) = 200·40 = 8 000;  F(B) = 200·20 + 150·30 = 4 000 + 4 500 = **8 500**;  F(C) = 150·40 = 6 000.
+#S So sánh, F lớn nhất bằng **8 500** tại **B(20; 30)**. Vì x = 20, y = 30 đều là số tự nhiên nên đây là phương án hợp lệ.
+#S **Kết luận:** Xưởng nên sản xuất **20 áo loại A và 30 áo loại B**, khi đó lợi nhuận lớn nhất là **8 500 000 đồng**.
+#WARN **Lưu ý khi làm bài:** Nếu đề **không yêu cầu** x, y nguyên thì kết luận ngay tại đỉnh (không cần kiểm tra điểm nguyên). Nếu đề yêu cầu số lượng là số tự nhiên, phải **kiểm tra lại** các điểm nguyên gần đỉnh - bước này nhiều học sinh bỏ sót.

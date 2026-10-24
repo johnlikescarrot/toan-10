@@ -1,0 +1,137 @@
+#H1 PHẦN 2 (tiếp). CHƯƠNG 3 VÀ CHƯƠNG 4
+#H2 2.5. CHƯƠNG 3 - GIÁ TRỊ LƯỢNG GIÁC CỦA MỘT GÓC TỪ 0° ĐẾN 180° (Đơn vị 3.1)
+#H3 2.5.1. Định nghĩa
+#P Trong mặt phẳng tọa độ Oxy, lấy **nửa đường tròn đơn vị** (nửa đường tròn tâm O, bán kính 1, nằm phía trên trục hoành). Với mỗi góc α (0° ≤ α ≤ 180°), có **duy nhất** điểm M trên nửa đường tròn đơn vị sao cho ∠xOM = α. Giả sử M(x₀; y₀). Khi đó:
+#M **sin α = y₀**      **cos α = x₀**      **tan α = y₀ / x₀** (x₀ ≠ 0)      **cot α = x₀ / y₀** (y₀ ≠ 0)
+#B Với α = 0° hoặc α = 180° thì y₀ = 0 nên **tan α, cot α không xác định**; với α = 90° thì x₀ = 0 nên **tan α, cot α không xác định**.
+#B Với mọi góc α ∈ [0°; 180°], ta luôn có **−1 ≤ sin α ≤ 1** và **−1 ≤ cos α ≤ 1**.
+#NOTE **Nhận biết góc tù - góc nhọn (rất hay hỏi):** Góc **nhọn** (0° < α < 90°) cho **sin, cos, tan, cot đều dương**. Góc **tù** (90° < α < 180°) cho **sin > 0** nhưng **cos < 0, tan < 0, cot < 0**. Riêng **sin luôn dương** với mọi α ∈ (0°; 180°) - đây là điểm khác biệt so với lớp 9.
+
+#H3 2.5.2. Bảng giá trị lượng giác của các góc đặc biệt
+#TABLE
+α | 0° | 30° | 45° | 60° | 90° | 120° | 135° | 150° | 180°
+**sin α** | 0 | 1/2 | √2/2 | √3/2 | 1 | √3/2 | √2/2 | 1/2 | 0
+**cos α** | 1 | √3/2 | √2/2 | 1/2 | 0 | −1/2 | −√2/2 | −√3/2 | −1
+**tan α** | 0 | √3/3 | 1 | √3 | ‖ | −√3 | −1 | −√3/3 | 0
+**cot α** | ‖ | √3 | 1 | √3/3 | 0 | −√3/3 | −1 | −√3 | ‖
+#ENDTABLE
+#PC ~~Kí hiệu ‖: giá trị không xác định.~~
+#KEY **Cách nhớ bảng bằng hai bàn tay:** sin các góc 0°, 30°, 45°, 60°, 90° lần lượt là √0/2, √1/2, √2/2, √3/2, √4/2. Cos là dãy **ngược lại**. Với góc tù, dùng công thức góc bù ở mục 2.5.3 thay vì học thuộc thêm.
+
+#H3 2.5.3. Hai góc bù nhau và hai góc phụ nhau
+#M **Hai góc bù nhau (α và 180° − α):**
+#M **sin(180° − α) = sin α**        **cos(180° − α) = −cos α**
+#M **tan(180° − α) = −tan α**       **cot(180° − α) = −cot α**
+#M **Hai góc phụ nhau (α và 90° − α):**
+#M **sin(90° − α) = cos α**         **cos(90° − α) = sin α**
+#M **tan(90° − α) = cot α**         **cot(90° − α) = tan α**
+#P **Hệ quả dùng nhiều:** sin 120° = sin 60° = √3/2; cos 135° = −cos 45° = −√2/2; tan 150° = −tan 30° = −√3/3.
+
+#H3 2.5.4. Các hệ thức lượng giác cơ bản
+#M **sin²α + cos²α = 1**
+#M **tan α = sin α / cos α**  (cos α ≠ 0)      **cot α = cos α / sin α**  (sin α ≠ 0)
+#M **tan α · cot α = 1**  (sin α ≠ 0, cos α ≠ 0)
+#M **1 + tan²α = 1 / cos²α**  (cos α ≠ 0)      **1 + cot²α = 1 / sin²α**  (sin α ≠ 0)
+
+#H4 Dạng toán 7: Tính giá trị lượng giác còn lại khi biết một giá trị (Câu 8)
+#P **Phương pháp:** (1) Dùng **sin²α + cos²α = 1** để tìm sin hoặc cos; (2) **xác định dấu** của giá trị cần tìm dựa vào khoảng của α (góc nhọn: tất cả dương; góc tù: sin dương, cos âm); (3) tính tan, cot theo công thức thương.
+#P **Ví dụ 10.** Cho góc α với 90° < α < 180° và cos α = −3/5. Tính sin α, tan α, cot α.
+#S **Giải.** Ta có sin²α = 1 − cos²α = 1 − 9/25 = 16/25, suy ra sin α = 4/5 hoặc sin α = −4/5.
+#S Vì 90° < α < 180° (góc tù) nên **sin α > 0**, do đó **sin α = 4/5**.
+#S Từ đó: **tan α** = sin α / cos α = (4/5) : (−3/5) = **−4/3**;  **cot α** = 1 / tan α = **−3/4**.
+#WARN **Sai lầm phổ biến:** Bỏ qua bước xét dấu, lấy sin α = ±4/5 rồi chọn dấu tùy ý. Chỉ cần biết α là góc nhọn hay góc tù là đủ để chọn dấu **duy nhất**.
+
+#H4 Dạng toán 8: Tính giá trị của một biểu thức lượng giác (Câu 3 trả lời ngắn)
+#P **Phương pháp:** Có hai hướng - (1) **đưa về tan hoặc cot** bằng cách chia cả tử và mẫu cho cos α (hoặc sin α); (2) **thay số trực tiếp** nếu đã biết sin, cos.
+#P **Ví dụ 11.** Cho góc α với 0° < α < 90° và tan α = 2. Tính giá trị biểu thức P = (2sin α + 3cos α) / (sin α − cos α).
+#S **Giải.** Vì 0° < α < 90° nên cos α ≠ 0. Chia cả tử và mẫu của P cho cos α:
+#S P = (2·(sin α/cos α) + 3) / ((sin α/cos α) − 1) = (2tan α + 3) / (tan α − 1).
+#S Thay tan α = 2: P = (2·2 + 3) / (2 − 1) = **7**.
+#TEAL **Nhận xét quan trọng:** Với biểu thức **đẳng cấp bậc nhất** theo sin và cos, chỉ cần biết **tan** (hoặc **cot**) là tính được ngay, **không cần** tìm sin, cos cụ thể. Đây là “chìa khóa” của dạng câu trả lời ngắn này.
+
+#PAGE
+#H2 2.6. CHƯƠNG 3 - HỆ THỨC LƯỢNG TRONG TAM GIÁC (Đơn vị 3.2)
+#P Kí hiệu tam giác ABC có: a = BC, b = CA, c = AB (cạnh đối diện các góc A, B, C); R là bán kính đường tròn **ngoại tiếp**; r là bán kính đường tròn **nội tiếp**; p = (a + b + c)/2 là **nửa chu vi**; S là diện tích.
+#H3 2.6.1. Định lí côsin
+#M **a² = b² + c² − 2bc·cos A**
+#M **b² = c² + a² − 2ca·cos B**        **c² = a² + b² − 2ab·cos C**
+#P **Hệ quả (dùng để tính góc khi biết ba cạnh):**
+#M **cos A = (b² + c² − a²) / (2bc)**     **cos B = (c² + a² − b²) / (2ca)**     **cos C = (a² + b² − c²) / (2ab)**
+#B **Ý nghĩa:** định lí côsin là “định lí Pythagore mở rộng” - khi A = 90° thì cos A = 0 và ta được a² = b² + c².
+
+#H3 2.6.2. Định lí sin
+#M **a / sin A = b / sin B = c / sin C = 2R**
+#P Từ đó: **a = 2R·sin A**, **sin A = a / (2R)**. Định lí sin dùng khi biết **một cạnh và góc đối diện** (để tìm R) hoặc biết **một cạnh và hai góc**.
+
+#H3 2.6.3. Công thức tính diện tích tam giác
+#M **S = (1/2)·a·h_a**     (h_a là đường cao kẻ từ A)
+#M **S = (1/2)·a·b·sin C = (1/2)·b·c·sin A = (1/2)·c·a·sin B**
+#M **S = a·b·c / (4R)**        **S = p·r**
+#M **S = √(p(p − a)(p − b)(p − c))**     (công thức Heron)
+#NOTE **Chọn công thức nào?** Biết **hai cạnh và góc xen giữa** → dùng (1/2)ab·sinC. Biết **ba cạnh** → Heron, hoặc tính một góc bằng hệ quả côsin rồi dùng công thức sin. Biết **ba cạnh và R** → abc/(4R). Biết **ba cạnh và r** → pr.
+
+#H3 2.6.4. Công thức đường trung tuyến
+#M **m_a² = (b² + c²)/2 − a²/4**     **m_b² = (c² + a²)/2 − b²/4**     **m_c² = (a² + b²)/2 − c²/4**
+
+#H3 2.6.5. Giải tam giác
+#P **Giải tam giác** là tìm **các cạnh và các góc còn lại** của tam giác khi biết một số yếu tố cho trước. Các trường hợp thường gặp:
+#B Biết **2 cạnh và góc xen giữa** → dùng định lí côsin tìm cạnh thứ ba, sau đó dùng hệ quả côsin (hoặc định lí sin) tìm góc.
+#B Biết **1 cạnh và 2 góc** → tính góc còn lại bằng tổng ba góc bằng 180°, rồi dùng định lí sin tìm hai cạnh còn lại.
+#B Biết **3 cạnh** → dùng hệ quả định lí côsin tìm góc (nên tìm góc lớn nhất trước để kiểm tra tam giác tù/nhọn).
+#WARN **Chú ý:** Trong tam giác, **góc lớn nhất đối diện cạnh lớn nhất**. Khi dùng định lí sin để tìm góc, nên tìm **góc nhỏ hơn** trước (góc đối diện cạnh nhỏ hơn) để tránh nhầm với góc bù - vì sin A = sin(180° − A) cho hai khả năng.
+
+#H4 Dạng toán 9: Tính cạnh, góc, diện tích, bán kính
+#P **Ví dụ 12.** Cho tam giác ABC có b = 8, c = 5 và góc A = 60°. Tính cạnh a, diện tích S, bán kính đường tròn ngoại tiếp R và bán kính đường tròn nội tiếp r.
+#S **Giải.**
+#S - Theo định lí côsin: a² = b² + c² − 2bc·cos A = 64 + 25 − 2·8·5·(1/2) = 89 − 40 = **49** ⇒ **a = 7**.
+#S - Diện tích: S = (1/2)·b·c·sin A = (1/2)·8·5·(√3/2) = **10√3**.
+#S - Theo định lí sin: R = a / (2 sin A) = 7 / (2·(√3/2)) = 7/√3 = **7√3/3**.
+#S - Nửa chu vi p = (7 + 8 + 5)/2 = 10; từ S = p·r suy ra **r = S/p = 10√3/10 = √3**.
+
+#H4 Dạng toán 10: Bài toán thực tiễn - đo khoảng cách, đo chiều cao (Câu 2 tự luận)
+#P **Phương pháp chung:** (1) Vẽ hình, **đặt tên các điểm** và xác định tam giác chứa đoạn cần tính; (2) xác định các yếu tố **đã biết** (cạnh, góc) của tam giác đó; (3) chọn **định lí côsin** (biết 2 cạnh + góc xen giữa, hoặc 3 cạnh) hay **định lí sin** (biết 1 cạnh + 2 góc); (4) tính toán, **làm tròn theo yêu cầu** và ghi đơn vị.
+#P **Ví dụ 13.** Để đo khoảng cách giữa hai điểm A và B ở hai bên bờ một hồ nước, người ta chọn điểm C trên bờ (cùng phía với A) sao cho đo được CA = 40 m, CB = 55 m và góc ACB = 65°. Tính khoảng cách AB (làm tròn đến 0,1 m).
+#S **Giải.** Xét tam giác ABC, biết hai cạnh CA = 40, CB = 55 và góc xen giữa C = 65°. Áp dụng định lí côsin:
+#S AB² = CA² + CB² − 2·CA·CB·cos C = 40² + 55² − 2·40·55·cos 65° ≈ 1 600 + 3 025 − 4 400·0,4226 ≈ 2 765,5.
+#S Suy ra AB ≈ √2 765,5 ≈ **52,6 m**.
+#WARN **Lỗi hay gặp:** Nhầm cạnh đối diện với góc (dùng sai công thức), hoặc quên **đổi đơn vị** / **làm tròn** theo yêu cầu đề. Với bài toán thực tế, luôn viết **kết luận có đơn vị** ở cuối bài.
+
+#PAGE
+#H2 2.7. CHƯƠNG 4 - CÁC KHÁI NIỆM MỞ ĐẦU VỀ VECTƠ (Đơn vị 4.1)
+#NOTE **Phạm vi thi:** Theo ma trận, phần Vectơ **chỉ gồm Bài 7 - Các khái niệm mở đầu** (2 câu trắc nghiệm, 0,5 điểm). Các phép toán cộng, trừ vectơ (Bài 8) **không nằm trong phạm vi** kì kiểm tra này - không cần học ở đây, nhưng nên biết để chuẩn bị cho học kì II.
+
+#H3 2.7.1. Định nghĩa vectơ
+#P **Vectơ** là một đoạn thẳng có **hướng**, nghĩa là ta phân biệt điểm đầu và điểm cuối.
+#B Vectơ có **điểm đầu A** và **điểm cuối B** được kí hiệu là **AB** (trong tài liệu này và trong sách Kết nối tri thức, tên vectơ được **in đậm**).
+#B Vectơ còn được kí hiệu bằng chữ thường in đậm: **a**, **b**, **x**, **y**...
+#B **Độ dài vectơ** **AB**, kí hiệu |**AB**|, là **độ dài đoạn thẳng AB**: |**AB**| = AB.
+#B **Giá của vectơ** là **đường thẳng đi qua điểm đầu và điểm cuối** của vectơ đó. Hai vectơ có giá **song song hoặc trùng nhau** gọi là **cùng phương**.
+#B **Vectơ-không**, kí hiệu **0**, là vectơ có **điểm đầu và điểm cuối trùng nhau**. Ta có |**0**| = 0 và **0 cùng phương, cùng hướng với mọi vectơ**.
+
+#H3 2.7.2. Hai vectơ cùng phương, cùng hướng, bằng nhau
+#B **Cùng phương:** hai vectơ có giá song song hoặc trùng nhau. Kí hiệu **a** ∥ **b** (hoặc viết “cùng phương”).
+#B **Cùng hướng / ngược hướng:** hai vectơ cùng phương thì hoặc **cùng hướng**, hoặc **ngược hướng**. Ba điểm phân biệt A, B, C thẳng hàng ⇔ **AB** và **AC** cùng phương.
+#B **Hai vectơ bằng nhau** nếu chúng **cùng hướng** và **cùng độ dài**. Kí hiệu **a** = **b**.
+#B **Hai vectơ đối nhau** nếu chúng **cùng độ dài** và **ngược hướng**. Kí hiệu **b** = −**a**.
+#KEY **Sơ đồ phân loại (rất hay dùng để loại trừ đáp án trắc nghiệm):**
+#KEY *Hai vectơ **bằng nhau** ⇒ **cùng phương** ⇒ **có giá song song hoặc trùng nhau**. Nhưng **cùng độ dài chưa đủ** để bằng nhau (phải cùng hướng); **cùng phương chưa đủ** để bằng nhau (phải cùng hướng và cùng độ dài).
+#WARN **Ba bẫy trắc nghiệm của phần Vectơ:** (1) Nhầm “cùng phương” với “cùng hướng”; (2) Nhầm **AB** = **CD** (ngược hướng) với **AB** = **DC** (cùng hướng) trong hình bình hành; (3) Cho rằng **0** chỉ cùng phương với chính nó - thực ra **0** cùng phương, cùng hướng với **mọi** vectơ.
+
+#H3 2.7.3. Các kết quả cần nhớ với hình quen thuộc
+#TABLE
+Hình | Đẳng thức vectơ | Hệ quả
+Hình bình hành ABCD | **AB** = **DC**, **AD** = **BC** | **AB** và **CD** cùng phương, ngược hướng
+Hình chữ nhật ABCD | như hình bình hành | hai đường chéo bằng nhau: |**AC**| = |**BD**|
+Hình vuông ABCD cạnh a | **AB** = **DC**, **AD** = **BC** | |**AC**| = |**BD**| = a√2
+I là trung điểm AB | **IA** = −**IB** | |**IA**| = |**IB**| = AB/2
+Tam giác ABC, M là trung điểm BC | **BM** = **MC** | **BM** và **BC** cùng hướng
+#ENDTABLE
+#B **Số vectơ khác 0 tạo bởi n điểm phân biệt:** với mỗi điểm đầu có (n − 1) cách chọn điểm cuối, nên có **n(n − 1)** vectơ. Ví dụ 3 điểm A, B, C cho **3·2 = 6** vectơ: **AB**, **BA**, **AC**, **CA**, **BC**, **CB**.
+
+#H4 Dạng toán 11: Nhận dạng khái niệm vectơ
+#P **Ví dụ 14.** Cho hình vuông ABCD tâm O, cạnh a. Xét tính đúng sai của các khẳng định:
+#P a) **AB** = **CD**.   b) **AB** = **DC**.   c) **AB** và **CD** là hai vectơ cùng phương.   d) **AD** và **BC** là hai vectơ ngược hướng.
+#S **Giải.** a) **Sai.** **AB** và **CD** có cùng độ dài a nhưng **ngược hướng** (AB hướng từ trái sang phải, CD hướng từ phải sang trái) nên không bằng nhau.
+#S b) **Đúng.** **AB** và **DC** có giá song song (cùng nằm trên hai cạnh đối song song), **cùng hướng** và cùng độ dài a.
+#S c) **Đúng.** Hai đường thẳng AB và CD song song nên hai vectơ có giá song song ⇒ cùng phương.
+#S d) **Sai.** **AD** và **BC** cùng hướng (cùng hướng từ trên xuống dưới trong cách vẽ chuẩn) và cùng độ dài, nên **AD** = **BC**.
