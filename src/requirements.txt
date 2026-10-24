@@ -1,0 +1,5 @@
+# Thư viện cần để dựng lại file PDF trong thư mục src/
+reportlab>=4.0
+fonttools>=4.40
+matplotlib>=3.7
+pypdfium2>=4.0     # chỉ dùng để kiểm tra/ xuất ảnh xem trước
