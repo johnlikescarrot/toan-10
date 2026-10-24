@@ -1,0 +1,13 @@
+{
+  "name": "toan-10-review-guide",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Build assets for the Vietnamese Grade 10 midterm-I review guide",
+  "scripts": {
+    "build": "python3 guide/build.py",
+    "validate": "python3 guide/validate.py"
+  },
+  "dependencies": {
+    "mathjax-full": "3.2.2"
+  }
+}
